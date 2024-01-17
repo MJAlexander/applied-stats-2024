@@ -1,0 +1,390 @@
+---
+title: "Intro to Quarto and Tidyverse"
+author: "Monica Alexander"
+date: today
+date-format: "DD/MM/YY"
+format: 
+    pdf:
+      toc: true
+---
+
+# By the end of this lab you should know the basics of
+
+- RStudio Projects
+- Quarto
+- Main tidyverse functions
+- `ggplot`
+
+# RStudio Projects
+
+RStudio projects are associated with R working directories. They are good to use for several reasons:
+
+- Each project has their own working directory, so make dealing with file paths easier
+- Make it easy to divide your work into multiple contexts
+- Can open multiple projects at one time in separate windows
+
+To make a new project in RStudio, go to File --> New Project. If you've already set up a repo for this class, then select 'Existing Directory' and choose the folder that will contain all your class materials. This will open a new RStudio window, that will be called the name of your folder. 
+
+In future, when you want to do work for this class, go to your class folder and open the .Rproj file. This will open an RStudio window, with the correct working directory, and show the files you were last working on. 
+
+# Quarto
+
+This is a Quarto document. Quarto allows you to create nicely formatted documents (HTML, PDF, Word) that also include code and output of the code. This is good because it's reproducible, and also makes reports easier to update when new data comes in. Each of the grey chunks contains R code, just like a normal R script. You can choose to run each chunk separately, or knit the whole document using Knit the button above, which creates your document. 
+
+To start a new Quarto file in Rstudio, go to File --> New File --> Quarto, then select Document and whatever you want to compile the document as (I chose pdf, and that's generally what we'll be doing in this class). Notice that this and the other inputs (title, author) are used to create the 'yaml', the bit at the start of the document. You can edit this, like I have for example to include table of contents. 
+
+When you hit 'Render' a pdf will be created and saved in the same folder as your `qmd` file. There are various options for output code, results, etc. For example, if you don't want your final report to include the code (but just the output, e.g. graphs or tables) then you can specify `#| echo=FALSE` at the top of the chunk (note: this syntax is different R Markdown). 
+
+Quarto is a newer version of R Markdown. I'm fine if people would rather stick to R Markdown. A helpful intro is here: https://quarto.org/docs/get-started/hello/rstudio.html
+
+
+
+## Writing math
+
+Writing equations is essentially the same as in LaTeX. You can write inline equations using the \$ e.g. $y = ax+b$. You can write equations on a separate line with two \$s e.g. 
+$$
+y = ax + b
+$$
+In pdf documents you can have numbered equations using
+\begin{equation}
+y = ax + b
+\end{equation}
+
+Getting greek letters, symbols, subscripts, bars etc is the same as LaTeX. A few examples are below
+
+- $Y_{i,j}$
+- $\bar{X} = \frac{\sum_{i = 1}^n X_i}{n}$
+- $\alpha \beta \gamma$
+- $X \rightarrow Y$
+- $Y \sim N(\mu, \sigma^2)$
+
+# Tidyverse
+
+Read in some packages that we'll be using:
+
+```{r}
+#| message: false
+#install.packages("tidyverse")
+library(tidyverse)
+```
+
+On top of the base R functionality, there's lots of different packages that different people have made to improve the usability of the language. One of the most successful suite of packages is now called the 'tidyverse'. The tidyverse contains a range of functionality that help to manipulate and visualize data. 
+
+Read in mortality rates for Ontario. These data come from the [Canadian Human Mortality Database](http://www.bdlc.umontreal.ca/chmd/prov/ont/ont.htm). 
+
+```{r}
+dm <- read_table("https://www.prdh.umontreal.ca/BDLC/data/ont/Mx_1x1.txt", skip = 2, col_types = "dcddd")
+head(dm)
+```
+
+The object `dm` is a data frame, or tibble. Every column can be a different data type (e.g. we have integers and characters). 
+
+## Important tidyverse functions
+
+You should feel comfortable using the following functions
+
+- The pipe `|>` or `%>%`
+- `filter`
+- `select`
+- `arrange`
+- `mutate`
+- `group_by`
+- `summarize`
+- `pivot_longer` and `pivot_wider`
+
+
+## Piping, filtering, selecting, arranging
+
+A central part of manipulating tibbles is using the `|>` function. This is a pipe, but should be read as saying 'and then'. Note that the `|>` syntax is the base version of the pipe (new last year). Previously the syntax was `%>%` through the `magrittr` package. They essentially function the same. 
+
+For example, say we just want to pull out mortality rates for 1935. We would take our tibble *and then* filter to only include 1935:
+
+```{r}
+dm |> 
+  filter(Year==1935) # two equals signs logical
+# we could say
+filter(dm, Year==1935)
+```
+
+You can also filter by more than one condition; say we just wanted to look at 10 year olds in 1935:
+
+```{r}
+dm |> 
+  filter(Year==1935, Age==10)
+```
+
+If we only wanted to look at 10 year olds in 1935 who were female, we could filter *and then* select the female column.
+
+```{r}
+dm |> 
+  filter(Year==1935, Age==10) |> 
+  select(Female)
+```
+You can also remove columns by selecting the negative of that column name. 
+
+```{r}
+colnames(dm)
+dm |> 
+  select(-Total)
+```
+
+Sort the tibble according to a particular column using `arrange`, for example, Year in descending order:
+
+```{r}
+dm |> 
+  arrange(-Year)
+```
+
+NOTE: none of the above operations are saving. To save, you need to assign the output to an object. You can call it something new or overwrite the original. 
+
+```{r}
+#| echo: false
+dm1935 <- dm |> 
+  filter(Year==1935)
+```
+
+
+
+## Grouping, summarizing, mutating
+
+In addition to `filter` and `select`, two useful functions are `mutate`, which allows you to create new variables, and `summarize`, which allows you to produce summary statistics. These are particularly powerful when combined with `group_by()` which allows you to do any operation on a tibble by group. 
+
+For example, let's create a new variable that is the ratio of male to female mortality at each age and year:
+
+```{r}
+  dm <- dm |> 
+  mutate(mf_ratio = Male/Female)
+```
+
+
+Now, let's calculate the mean female mortality rate by age over all the years. To do this, we need to `group_by` Age, and then use `summarize` to calculate the mean:
+
+```{r}
+summary_mean <- dm |> 
+  group_by(Age) |> 
+  summarize(mean_mortality = mean(Female, na.rm = TRUE))
+
+dim(summary_mean)
+dim(dm)
+
+```
+
+
+Mean of males and females by age
+
+```{r}
+dm |> 
+  group_by(Age) |> 
+  summarize(mean_mortality_f = mean(Female, na.rm = TRUE),
+            mean_mortality_m = mean(Male, na.rm = TRUE))
+```
+
+Alternatively using `across`
+
+```{r}
+dm |> 
+  group_by(Age) |> 
+  summarize(across(Male:Female, mean, na.rm = TRUE))
+```
+
+
+## Pivoting
+
+We often need to switch between wide and long data format. The `dm` tibble is currently in wide format. To get it in long format we can use `pivot_longer`
+
+```{r}
+dm_long <- dm |> 
+  select(-mf_ratio) |> 
+  pivot_longer(Female:Total, names_to = "sex", values_to = "mortality")
+dm_long
+```
+
+Revert this
+
+```{r}
+dm_long |> 
+  pivot_wider(names_from = "sex", values_from = "mortality")
+```
+
+
+## Using ggplot
+
+You can plot things in R using the base `plot` function, but plots using `ggplot` are much prettier. 
+
+Say we wanted to plot the mortality rates for 30 year old males over time. In the function `ggplot`, we need to specify our data (in this case, a filtered version of dm), an x axis (Year) and y axis (Male). The axes are defined withing the `aes()` function, which stands for 'aesthetics'.
+
+First let's get our data:
+
+```{r}
+d_to_plot <- dm |> 
+  filter(Age==30) |> 
+  select(Year, Male)
+d_to_plot
+```
+
+Now start the ggplot:
+
+```{r}
+p <- ggplot(data = d_to_plot, aes(x = Year, y = Male))
+p
+```
+
+Notice the object `p` is just an empty box. The key to ggplot is layering: we now want to specify that we want a line plot using `geom_line()`:
+
+```{r}
+p +
+  geom_line()
+```
+
+Let's change the color of the line, and the y-axis label, and give the plot a title:
+
+```{r}
+p +
+  geom_line(color = "firebrick4")+
+  labs(title = "30 year old Male mortality rates over time, Ontario",
+       subtitle = "this is a subtitle",
+       y = "Mortality rate") + 
+  theme_bw(base_size = 14)
+```
+
+
+### More than one group
+
+Now say we wanted to have trends for 30-year old males and females on the one plot. The easiest way to do this is to first reshape our data so it's in long format: so instead of having a column for each sex, we have one column indicating the sex, and another column indicating the Mx value
+
+```{r}
+dp <- dm |> 
+  filter(Age==30) |> 
+  select(Year:Male) |> 
+  pivot_longer(Female:Male, names_to = "Sex", values_to = "Mortality")
+```
+
+Now we can do a similar plot to before but we now have an added component in the `aes()` function: color, which is determined by sex:
+
+```{r}
+dp |> 
+  ggplot(aes(x = Year, y = Mortality, color = Sex)) + 
+  geom_line() + 
+  scale_color_brewer(palette = "Set1")
+```
+
+```{r}
+dp <- dm |> 
+  filter(Age==30|Age==60) |> 
+  select(Year:Male) |> 
+  pivot_longer(Female:Male, names_to = "Sex", values_to = "Mortality")
+
+dp |> 
+  ggplot(aes(x = Year, y = Mortality, color = Sex, linetype = Age)) + 
+  geom_line() + 
+  scale_color_brewer(palette = "Set1")
+```
+
+
+### Faceting
+
+A neat thing about ggplot is that it's relatively easy to create 'facets' or smaller graphs divided by groups. Say we wanted to look at trends for 30 year olds and 60 year olds for both males and females. Let's get the data ready to plot:
+
+```{r}
+dp
+```
+
+Now let's plot, with a separate facet for each sex:
+
+```{r}
+dp |> 
+  ggplot(aes(x = Year, y = Mortality, color = Age)) + 
+  geom_line()+
+  facet_grid(~Sex)
+```
+
+# Lab Exercises
+
+Make a new Quarto or R Markdown file to answer these questions, and push to your repository on Github (both the .qmd and pdf file) by Monday 9am. The file should be appropriately named, and in a folder in your repo called 'labs' or something similar. 
+
+1. Plot the ratio of female to male mortality rates over time for ages 10,20,30 and 40 (different color for each age) and change the theme 
+
+```{r}
+dm |> 
+  mutate(ratio = Male/Female)  |>  
+  filter(Age %in% seq(10, 40, by = 10)) |> 
+  ggplot(aes(Year, ratio, color = factor(Age)) ) + 
+  geom_line() + 
+  theme_bw()+
+  scale_color_brewer(palette = "Set1", name = "")
+```
+
+2. Find the age that has the lowest female mortality rate each year 
+
+```{r}
+dm |> 
+  group_by(Year) |> 
+  arrange(Female)|> 
+  slice(1) |> 
+  select(Year, Age)
+```
+3. Use the `summarize(across())` syntax to calculate the standard deviation of mortality rates by age for the Male, Female and Total populations. 
+```{r}
+dm |> 
+  mutate(Age = str_remove(Age, "\\+")) |> 
+  mutate(Age = as.numeric(Age)) |> 
+  group_by(Age) |> 
+  summarise(across(Female:Total, ~sd(.x, na.rm = TRUE)))
+```
+4. The Canadian HMD also provides population sizes over time (https://www.prdh.umontreal.ca/BDLC/data/ont/Population.txt). Use these to calculate the population weighted average mortality rate separately for males and females, for every year. Make a nice line plot showing the result (with meaningful labels/titles) and briefly comment on what you see (1 sentence). Hint: `left_join` will probably be useful here. 
+
+```{r}
+dp <-  read_table("https://www.prdh.umontreal.ca/BDLC/data/ont/Population.txt", skip = 2, col_types = "dcddd")
+
+dm |> 
+  rename(male_mort = Male, 
+         female_mort = Female) |> 
+  select(-Total) |> 
+  left_join(dp |> 
+              rename(male_pop = Male,
+                     female_pop = Female)) |> 
+  drop_na() |> 
+  group_by(Year) |> 
+  summarise(female_mort = sum(female_mort*female_pop)/sum(female_pop),
+            male_mort = sum(male_mort*male_pop)/sum(male_pop))|> 
+  pivot_longer(-Year) |> 
+  mutate(name = ifelse(name == "female_mort", "female", "male")) |> 
+  ggplot(aes(Year, value, color = name)) + 
+    geom_line() + 
+    labs(y = "rate", title = "Population weighted mortality rate, Ontario") 
+  
+```
+
+The rate has increased in recent years, most likely due to population ageing. 
+
+5. Write down using appropriate notation, and run a simple linear regression with logged mortality rates as the outcome and age (as a continuous variable) as the covariate, using data for females aged less than 106 for the year 2000. Interpret the coefficient on age. 
+
+
+Model is 
+$$
+\log Y_i = \beta_0 + \beta_1 X_i
+$$
+where $Y_i$ is the female mortality rate and $X_i$ is age. 
+
+```{r}
+dr <- dm |> 
+    mutate(Age = as.numeric(Age)) |> 
+  filter(Year==2000, Age < 106) 
+
+
+mod <- lm(log(Female)~Age, data = dr)
+summary(mod)
+```
+Expected mortality rate increases by about 8.7% with every year of age. Is it a decent fit? Not really, because mortality is not log linear at young ages. 
+
+```{r}
+dr |> 
+  ggplot(aes(Age, log(Female), color = "data")) + 
+  geom_point()+
+  geom_abline(aes(intercept = mod$coefficients[1], slope = mod$coefficients[2], color = "fit"))+
+  labs(y = "Log mortality rate", title = "Female mortality in Ontario, 2000", subtitle = "Data and fit")
+```
+
+
+
+
