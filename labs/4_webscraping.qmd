@@ -1,0 +1,141 @@
+---
+title: "Week 4: Web scraping"
+date: today
+date-format: "DD/MM/YY"
+format: pdf
+---
+
+# Introduction
+
+Today we will be extracting some useful data from websites. There's a bunch of different ways to web-scrape, but we'll be exploring using the `rvest` package in R, that helps you to deal with parsing html. 
+
+Why is web scraping useful? If our research involves getting data from a website that isn't already in a easily downloadable form, it improves the reproducibility of our research. Once you get a scraper working, it's less prone to human error than copy-pasting, for example, and much easier for someone else to see what you did. 
+
+## A note on responsibility
+
+Seven principles for web-scraping responsibly:
+
+1. Try to use an API.
+2. Check robots.txt. (e.g. https://www.utoronto.ca/robots.txt)
+3. Slow down (why not only visit the website once a minute if you can just run your data collection in the background while you're doing other things?).
+4. Consider the timing (if it's a retailer then why not set your script to run overnight?).
+5. Only scrape once (save the data as you go and monitor where you are up to).
+6. Don't republish the data you scraped (cf datasets that create based off it).
+7. Take ownership (add contact details to your scripts, don't hide behind VPNs, etc)
+
+#  Extracting the Billboard top 100 songs list
+
+
+We're going to scrape the Billboard top 100 songs list from september last year: https://www.billboard.com/charts/hot-100/2023-09-23/. While the data are nicely presented, there's no nice way of downloading the data for each year as a csv or similar form. So let's use `rvest` to extract the data. We'll also load in `janitor` to clean up column names etc later on. 
+
+```{r}
+library(tidyverse)
+library(rvest)
+library(janitor)
+```
+
+Firstly, read the html from the webpage:
+
+
+```{r}
+link <- "https://www.billboard.com/charts/hot-100/2023-09-23/"
+billboard_page <- read_html(link)
+```
+
+We want to extract information from the (interactive) table. To find where this was in the html, I made use of the 'Inspect' option when you right-click in Chrome. This was a relatively straightforward way of find the right class for each table item. Once I had that, I pulled all the html nodes of that class, converted to text, removed all "\t" (tabs), converted to a tibble and then separated the values. The final line of code gets rid of all empty columns. 
+
+```{r}
+# class of table objects
+class <- "o-chart-results-list-row-container"
+
+rough_table <- billboard_page |> 
+  html_nodes(xpath = paste0("//div[@class = '",class,"']"))|> # pull out table
+  html_text() |> # convert to text
+  str_remove_all("\t") |> # remove tabs
+  as_tibble() |> # convert to tibble
+  separate(value, into = paste0(1:1000), sep = "\n") |> # separate into columns
+  select_if(function(x) !(all(is.na(x)) | all(x=="")))  # remove empty columns
+
+```
+
+We're almost there, but some of the values are mis-aligned, because some songs have an additional label of 'new' or a 're-entry'. To tidy this up, I found it easiest to separate these songs out, clean up the table, and then join them back together.
+
+```{r}
+# new songs tidying up
+rough_new <- rough_table |> 
+  filter(`12`=="NEW")|> 
+  select_if(function(x) !(all(is.na(x)) | all(x==""))) |> 
+  rename(position = `5`,
+         song_name = `43`,
+         artist = `49`,
+         last_week = `65`,
+         peak_position = `72`,
+         weeks_in_chart = `79`
+         ) |> 
+  select(position, song_name, artist, last_week, peak_position, weeks_in_chart) |> 
+  mutate(label = "new")
+
+# re-entry songs tidying up
+rough_re <- rough_table |> 
+  filter(`12` == "RE-") |> 
+  rename(position = `5`,
+         song_name = `45`,
+         artist = `51`,
+         last_week = `67`,
+         peak_position = `74`,
+         weeks_in_chart = `81`
+         ) |> 
+  select(position, song_name, artist, last_week, peak_position, weeks_in_chart) |> 
+  mutate(label = "re-entry")
+
+# everything else tidying up
+rough_everything_else <- rough_table |> 
+  filter(`12` == "") |> 
+  mutate(`59` = ifelse(`59`=="", `61`, `59`),
+         `66` = ifelse(`66`=="", `68`, `66`),
+         `73` = ifelse(`73`=="", `75`, `73`))|> 
+  rename(position = `5`,
+         song_name = `39`,
+         artist = `45`,
+         last_week = `59`,
+         peak_position = `66`,
+         weeks_in_chart = `73`
+         ) |> 
+  select(position, song_name, artist, last_week, peak_position, weeks_in_chart) |> 
+  mutate(label = "NA")
+
+# bind them all together and sort
+clean_table <- bind_rows(rough_everything_else, 
+                         rough_new, rough_re) |> 
+  mutate(position = as.numeric(position)) |> 
+  arrange(position)
+
+clean_table
+```
+
+
+# Install rstan and brms
+
+We will be using the packages `rstan` and `brms` from next week. Please install these. Here's some instructions:
+
+- https://github.com/paul-buerkner/brms
+- https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started
+
+In most cases it will be straightforward and may not need much more than `install.packages()`, but you might run into issues. Every Stan update seems to cause problems for different OS.
+
+To make sure it works, run the following code:
+
+```{r}
+library(brms)
+
+x <- rnorm(100)
+y <- 1 + 2*x + rnorm(100)
+d <- tibble(x = x, y= y)
+
+mod <- brm(y~x, data = d)
+summary(mod)
+
+```
+
+
+
