@@ -1,0 +1,224 @@
+---
+title: "Week 5: Bayesian linear regression and introduction to Stan"
+date: today
+date-format: "DD/MM/YY"
+format: pdf
+execute: 
+  warning: false
+  message: false
+---
+
+# Introduction
+
+Today we will be starting off using Stan, looking at the kid's test score data set (available in resources for the [Gelman Hill textbook](https://mc-stan.org/rstanarm/reference/rstanarm-datasets.html)). 
+
+```{r}
+library(tidyverse)
+library(rstan)
+library(tidybayes)
+library(here)
+```
+
+
+The data look like this:
+
+```{r}
+kidiq <- read_rds(here("data","kidiq.RDS"))
+kidiq
+```
+As well as the kid's test scores, we have a binary variable indicating whether or not the mother completed high school, the mother's IQ and age. 
+
+
+# Descriptives
+
+## Question 1
+
+Use plots or tables to show three interesting observations about the data. Remember:
+
+- Explain what your graph/ tables show
+- Choose a graph type that's appropriate to the data type
+
+# Estimating mean, no covariates
+
+In class we were trying to estimate the mean and standard deviation of the kid's test scores. The `kids2.stan` file contains a Stan model to do this. If you look at it, you will notice the first `data` chunk lists some inputs that we have to define: the outcome variable `y`, number of observations `N`, and the mean and standard deviation of the prior on `mu`. Let's define all these values in a `data` list.
+
+
+```{r}
+y <- kidiq$kid_score
+mu0 <- 80
+sigma0 <- 10
+
+# named list to input for stan function
+data <- list(y = y, 
+             N = length(y), 
+             mu0 = mu0,
+             sigma0 = sigma0)
+```
+
+
+
+Now we can run the model:
+
+```{r}
+fit <- stan(file = here("code/models/kids2.stan"),
+            data = data,
+            chains = 3,
+            iter = 500)
+```
+
+Look at the summary
+
+```{r}
+fit
+```
+
+Traceplot
+
+```{r}
+traceplot(fit)
+```
+
+All looks fine. 
+
+```{r}
+pairs(fit, pars = c("mu", "sigma"))
+```
+
+```{r}
+stan_dens(fit, separate_chains = TRUE)
+```
+
+
+## Understanding output
+
+What does the model actually give us? A number of samples from the posteriors. To see this, we can use `extract` to get the samples. 
+
+```{r}
+post_samples <- extract(fit)
+head(post_samples[["mu"]])
+```
+
+
+This is a list, and in this case, each element of the list has 4000 samples. E.g. quickly plot a histogram of mu
+
+```{r}
+hist(post_samples[["mu"]])
+median(post_samples[["mu"]])
+# 95% bayesian credible interval
+quantile(post_samples[["mu"]], 0.025)
+quantile(post_samples[["mu"]], 0.975)
+```
+
+
+
+## Plot estimates
+
+There are a bunch of packages, built-in functions that let you plot the estimates from the model, and I encourage you to explore these options (particularly in `bayesplot`, which we will most likely be using later on). I like using the `tidybayes` package, which allows us to easily get the posterior samples in a tidy format (e.g. using gather draws to get in long format). Once we have that, it's easy to just pipe and do ggplots as usual. 
+
+
+Get the posterior samples for mu and sigma in long format:
+
+```{r}
+dsamples <- fit  |> 
+  gather_draws(mu, sigma) # gather = long format
+dsamples
+
+# wide format
+fit  |>  spread_draws(mu, sigma)
+
+# quickly calculate the quantiles using 
+
+dsamples |> 
+  median_qi(.width = 0.8)
+```
+
+Let's plot the density of the posterior samples for mu and add in the prior distribution
+
+```{r}
+dsamples |> 
+  filter(.variable == "mu") |> 
+  ggplot(aes(.value, color = "posterior")) + geom_density(size = 1) + 
+  xlim(c(70, 100)) + 
+  stat_function(fun = dnorm, 
+        args = list(mean = mu0, 
+                    sd = sigma0), 
+        aes(colour = 'prior'), size = 1) +
+  scale_color_manual(name = "", values = c("prior" = "red", "posterior" = "black")) + 
+  ggtitle("Prior and posterior for mean test scores") + 
+  xlab("score")
+  
+```
+
+## Question 2
+
+Change the prior to be much more informative (by changing the standard deviation to be 0.1). Rerun the model. Do the estimates change? Plot the prior and posterior densities. 
+
+# Adding covariates
+
+Now let's see how kid's test scores are related to mother's education. We want to run the simple linear regression
+
+$$
+Score = \alpha + \beta X
+$$
+where $X = 1$ if the mother finished high school and zero otherwise. 
+
+`kid3.stan` has the stan model to do this. Notice now we have some inputs related to the design matrix $X$ and the number of covariates (in this case, it's just 1).
+
+Let's get the data we need and run the model. 
+
+
+
+```{r}
+X <- as.matrix(kidiq$mom_hs, ncol = 1) # force this to be a matrix
+K <- 1
+
+data <- list(y = y, N = length(y), 
+             X =X, K = K)
+fit2 <- stan(file = here("code/models/kids3.stan"),
+            data = data, 
+            iter = 1000)
+```
+
+## Question 3
+
+a) Confirm that the estimates of the intercept and slope are comparable to results from `lm()` 
+b) Do a `pairs` plot to investigate the joint sample distributions of the slope and intercept. Comment briefly on what you see. Is this potentially a problem?
+
+
+## Plotting results
+
+It might be nice to plot the posterior samples of the estimates for the non-high-school and high-school mothered kids. Here's some code that does this: notice the `beta[condition]` syntax. Also notice I'm using `spread_draws`, because it's easier to calculate the estimated effects in wide format
+
+```{r}
+fit2 |>
+  spread_draws(alpha, beta[k], sigma) |> 
+     mutate(nhs = alpha, # no high school is just the intercept
+          hs = alpha + beta) |> 
+  select(nhs, hs) |> 
+  pivot_longer(nhs:hs, names_to = "education", values_to = "estimated_score") |> 
+  ggplot(aes(y = education, x = estimated_score)) +
+  stat_halfeye() + 
+  theme_bw() + 
+  ggtitle("Posterior estimates of scores by education level of mother")
+  
+```
+
+
+## Question 4
+
+Add in mother's IQ as a covariate and rerun the model. Please  mean center the covariate before putting it into the model. Interpret the coefficient on the (centered) mum's IQ. 
+
+
+## Question 5 
+
+Confirm the results from Stan agree with `lm()`
+
+## Question 6
+
+Plot the posterior estimates of scores by education of mother for mothers who have an IQ of 110. 
+
+## Question 7
+
+Generate and plot (as a histogram) samples from the posterior predictive distribution for a new kid with a mother who graduated high school and has an IQ of 95. 
+
+
