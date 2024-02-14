@@ -42,6 +42,17 @@ Use plots or tables to show three interesting observations about the data. Remem
 
 In class we were trying to estimate the mean and standard deviation of the kid's test scores. The `kids2.stan` file contains a Stan model to do this. If you look at it, you will notice the first `data` chunk lists some inputs that we have to define: the outcome variable `y`, number of observations `N`, and the mean and standard deviation of the prior on `mu`. Let's define all these values in a `data` list.
 
+$$
+y_i |\mu, \sigma \sim N(\mu, \sigma^2)
+$$
+priors:
+$$
+\sigma \sim N^+(0,10^2)
+$$
+$$
+\mu \sim N(\mu_0, \sigma^2_0)
+$$
+
 
 ```{r}
 y <- kidiq$kid_score
@@ -62,6 +73,7 @@ Now we can run the model:
 ```{r}
 fit <- stan(file = here("code/models/kids2.stan"),
             data = data,
+            # reducing the iterations a bit to speed things up
             chains = 3,
             iter = 500)
 ```
@@ -95,6 +107,7 @@ What does the model actually give us? A number of samples from the posteriors. T
 
 ```{r}
 post_samples <- extract(fit)
+names(post_samples)
 head(post_samples[["mu"]])
 ```
 
@@ -109,6 +122,13 @@ quantile(post_samples[["mu"]], 0.025)
 quantile(post_samples[["mu"]], 0.975)
 ```
 
+Tidybayes is also very useful:
+
+```{r}
+fit |> 
+  gather_draws(mu, sigma) |> 
+  median_qi(.width = 0.8)
+```
 
 
 ## Plot estimates
@@ -158,8 +178,26 @@ Change the prior to be much more informative (by changing the standard deviation
 Now let's see how kid's test scores are related to mother's education. We want to run the simple linear regression
 
 $$
-Score = \alpha + \beta X
+y_i|\mu_i, \sigma^2 \sim N(\mu_i, \sigma^2)
 $$
+
+
+
+$$
+\mu_i = \alpha + \beta X_i
+$$
+Priors:
+$$
+\alpha \sim N(0, 100^2)
+$$
+$$
+\beta\sim N(0, 10^2)
+$$
+$$
+\sigma \sim N(0, 10^2)
+$$
+
+
 where $X = 1$ if the mother finished high school and zero otherwise. 
 
 `kid3.stan` has the stan model to do this. Notice now we have some inputs related to the design matrix $X$ and the number of covariates (in this case, it's just 1).
@@ -177,6 +215,9 @@ data <- list(y = y, N = length(y),
 fit2 <- stan(file = here("code/models/kids3.stan"),
             data = data, 
             iter = 1000)
+
+fit2
+traceplot(fit2)
 ```
 
 ## Question 3
@@ -200,6 +241,16 @@ fit2 |>
   stat_halfeye() + 
   theme_bw() + 
   ggtitle("Posterior estimates of scores by education level of mother")
+
+
+fit2 |>
+  spread_draws(alpha, beta[k], sigma) |> 
+     mutate(nhs = alpha, # no high school is just the intercept
+          hs = alpha + beta) |> 
+  select(nhs, hs) |> 
+  pivot_longer(nhs:hs, names_to = "education", values_to = "estimated_score") |> 
+  ggplot(aes(x = estimated_score, fill = education)) +
+  geom_density()
   
 ```
 
