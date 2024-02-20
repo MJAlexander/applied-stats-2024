@@ -1,0 +1,127 @@
+---
+title: "STA2201H Winter 2024 Assignment 2"
+output: 
+  pdf_document:
+    number_sections: true
+fontsize: 11pt
+---
+
+**Due:** 11:59pm ET, March 6 
+
+**What to hand in:** .Rmd or .qmd file and the compiled pdf, and any stan files
+
+**How to hand in:** Submit files via Quercus
+
+
+\newpage
+# IQ 
+
+Suppose we are to sample $n$ individuals from a particular town and then estimate $\mu$, the town-specific mean IQ score, based on the sample of size $n$.
+Let $Y_i$ denote the IQ score for the $i$th person in the town of interest, and assume 
+
+$$
+Y_{1}, Y_{2}, \ldots, Y_{n} | \mu, \sigma^{2} \sim N\left(\mu, \sigma^{2}\right)
+$$
+
+
+For this question, will assume that the onserved standard deviation of the IQ scores in the town is equal to 15, the observed mean is equal to 113 and the number of observations is equal to 10. Additionally, for Bayesian inference, the following prior will be used:
+
+$$
+\mu \sim N\left(\mu_{0}, \sigma_{\mu 0}^{2}\right)
+$$
+with $\mu_{0} = 100$ and $\sigma_{\mu 0} = 15$. 
+
+
+a) Write down the posterior distribution of $\mu$ based on the information above. Give the Bayesian point estimate and a 95% credible interval of $\mu$, $\hat{\mu}_{Bayes} = E(\mu|\boldsymbol{y})$. 
+
+We will now compare the sampling properties of the Bayes estimator to the sample mean, which is the ML estimator.  
+
+b) Suppose that (unknown to us) the true mean IQ score is $\mu^*$. To evaluate how close an estimator is to the truth, we might want to use the mean squared error (MSE) $\operatorname{MSE}\left[\hat{\mu} | \mu^{*}\right]=E\left[\left(\hat{\mu}-\mu^{*}\right)^{2} | \mu^{*}\right]$. Show the MSE is equal to the variance of the estimator plus the bias of the estimator squared, i.e.
+
+$$
+\operatorname{MSE}\left[\hat{\mu} | \mu^{*}\right]= \operatorname{Var}\left[\hat{\mu} | \mu^{*}\right]+\operatorname{Bias}\left(\hat{\mu} | \mu^{*}\right)^{2}
+$$
+
+c) Suppose that the true mean IQ score is 112. Calculate the bias, variance and MSE of the Bayes and ML estimates. Which estimate has a larger bias? Which estimate has a larger MSE? 
+
+d) Write down the sampling distributions for the ML and Bayes estimates, again assuming $\mu^* = 112$ and $\sigma = 15$. Plot the two distributions on the one graph. Summarize your understanding of the differences in bias, variance and MSE of the two estimators by describing how these differences relate to differences in the sampling distributions as plotted. To further illustrate the point, obtain the Bayes and ML MSEs for increasing sample sizes and plot the ratio (Bayes MSE)/(ML MSE) against sample size.  
+
+\newpage
+
+# Gompertz
+
+Gompertz hazards are of the form
+
+$$
+\mu_x = \alpha e^{\beta x}
+$$
+for $x \in [0, \infty)$ with $\alpha, \beta>0$. It is named after Benjamin Gompertz, who suggested a similar form to capture a 'law of human mortality' in 1825. 
+
+This question uses data on deaths by age in Sweden over time. The data are in the `sweden` file in the class repo. I grabbed the data from the [Human Mortality Database](https://mortality.org/). 
+
+We will assume that the deaths we observe in a particular age group are Poisson distributed with a rate equal to the mortality rate multiplied by the population, i.e.
+$$
+D_x \sim \text{Poisson}(\mu_xP_x)
+$$
+where $x$ refers to age. In this question we will be estimating mortality rates using the Gompertz model as described above. 
+
+
+a) Describe, with the aid of a couple of graphs, some key observations of how mortality above age 50 in Sweden has changed over time. 
+b) Carry out prior predictive checks for $\alpha$ and $\beta$, based on populations by age in Sweden in 2020. Summarize what you find and what you decide to be weakly informative priors for these parameters.
+c) Fit a model in Stan to estimate $\alpha$ and $\beta$ for the year 2020. Note that it may be easier to specify the likelihood on the log scale (you can do this in Stan using the `poisson_log` function). Priors should be informed by your prior predictive checks and any other information available. Ensure that the model has converged and other diagnostics are good. Interpret your estimates for $\alpha$ and $\beta$.
+d) Carry out some posterior predictive checks to assess model performance.  
+e) Now extend your model to estimate $\alpha$ and $\beta$ in every year over the interval 1990-2020. Plot the resulting point estimates and 95% credible intervals for your estimates of $\alpha$ and $\beta$ over time. Comment briefly on what you observe. 
+f) Life expectancy at age $x$ is defined as 
+$$
+\int_x^{\omega} e^{-\mu_a}da
+$$
+where $\omega$ is the oldest age group (you may assume this is age 100). Life expectancy is the expected number of years of life left at age $x$. The integral can be approximated by summing over discrete age groups. Based on your estimates in the previous question, estimate life expectancy at age 40 (note starting age!) for every year from 1990-2020. Plot your resulting point estimates and 95% credible intervals over time and comment briefly. 
+
+\newpage
+
+# Lakers
+
+This question uses data on basketball games involving the LA Lakers in the 2008-2009 season. Once you've loaded in the `tidyverse` package, you should be able to access the data using `data("lakers")`. 
+
+
+The outcome of interest is whether or not a particular shot $i$ made the basket:
+$$
+z_{i}=\left\{\begin{array}{ll}1 & \text { if shot } i \text { was made } \\ 0 & \text { if shot } i \text { missed. }\end{array}\right.
+$$
+We are interested in studying the association between the shot being made and where the shot was taken on the court. The variables of interest for these questions are 
+
+- `result`, which you can use to create $z_i$ above;
+- `x`, which is the horizontal coordinate of where the shot was taken;
+- `y`, which is the vertical coordinate of where the shot was taken. 
+
+If you do a search `?lakers`, this will tell you a bit more about the dataset. If you go to the original source (www.basketballgeek.com/data/), this tells you a bit more about how to interpret the (x,y) coordinates. 
+
+Note that only shots have (x,y) coordinates, so for this question you can filter out all other events (rebounds, free throws, etc).
+
+a) Do an exploratory data analysis illustrating the relationship between making a shot, and the location on the court where the play was made. Think about different ways of effectively illustrating the relationships given the binary outcome. As usual, a good EDA includes well-thought-out descriptions and analysis of any graphs and tables provided, well-labelled axes, titles etc. 
+
+Assume $z_i \sim Bern(p_i)$, where $p_i$ refers to the probability of making a shot Consider two candidate models.
+
+- Model 1: $$\operatorname{logit}\left(p_{i}\right)=\beta_{0}+\beta_{1} \cdot\left(x_{i}-{x}_0\right)+\beta_{2} \cdot\left(y_{i}-y_0\right)+\beta_{3} \cdot\left(x_{i}-x_0\right)\left(y_i - y_0\right)$$
+
+- Model 2: 
+$$\operatorname{logit}\left(p_{i}\right)=\beta_{0}+\beta_{1} \cdot\left(|x_{i}-{x}_0|\right)+\beta_{2} \cdot\left(y_{i}-y_0\right)+\beta_{3} \cdot\left(|x_{i}-x_0|\right)\left(y_i - y_0\right)$$
+
+where $x_i$ is the x-coordinate and $y_i$ is the y-coordinate of the shot. The values $x_0$ and $y_0$ refer to the coordinates of the basket. 
+
+
+
+b) Fit both of these models using Stan. Put $N(0,1)$ priors on all the $\beta$s. You should generate pointwise log likelihood estimates (to be used in later questions), and also samples from the posterior predictive distribution (unless you'd prefer to do it in R later on). For both models, interpret each coefficient. 
+
+c) Let $t(\boldsymbol{z})=\sum_{i=1}^{n} 1\left(z_{i}=1, y_{i}>10\right) / \sum_{i=1}^{n} 1\left(y_{i}>10\right)$ i.e. the proportion of shots made at a y-distance greater than 10. Calculate $t(\boldsymbol{z^{rep}})$ for each replicated dataset for each model, plot the resulting histogram for each model and compare to the observed value of $t(\boldsymbol{z})$. Calculate $P\left(t\left(\boldsymbol{z}^{r e p}\right)<t(\boldsymbol{z})\right)$ for each model. Interpret your findings. 
+
+d) Use the `loo` package to get estimates of the expected log pointwise predictive density for each point, $ELPD_i$. Based on $\sum_i ELPD_i$, which model is preferred?
+
+e) Create a scatter plot of the $ELPD_i$'s for Model 2 versus the $ELPD_i$'s for Model 1. Create another scatter plot of the difference in $ELPD_i$'s between the models versus the (centered) y-coordinate. In both cases, color the dots based on the value of $z_i$. Interpret both plots. 
+
+f) Given the outcome in this case is discrete, we can directly interpret the $ELPD_i$s. In particular, what is $\exp(ELPD_i)$? 
+
+g) For each model recode the $ELPD_i$'s to get $\hat{z}_{i}=E\left(Z_{i} | \boldsymbol{z}_{-i}\right)$. Create a binned residual plot, looking at the average residual $z_i - \hat{z}_i$ by (centered) y-coordinate. Split the data such that there are 40 bins. On your plots, the average residual should be shown with a dot for each bin. In addition, add in a line to represent +/- 2 standard errors for each bin. Interpret the plots for both models. 
+
+
+
