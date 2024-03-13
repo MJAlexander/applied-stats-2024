@@ -1,0 +1,2775 @@
+age_group,region_2,educ,marital,abortion
+25,northern,primary,divorced/separated,0
+25,eastern,primary,married/in union,1
+15,central,more than primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,1
+20,central,more than primary,married/in union,0
+25,western,less than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+20,western,less than primary,married/in union,0
+15,central,primary,single/never married,0
+25,eastern,primary,married/in union,1
+40,western,primary,married/in union,0
+20,eastern,primary,married/in union,0
+30,central,less than primary,divorced/separated,0
+25,northern,less than primary,married/in union,0
+35,central,primary,divorced/separated,0
+25,central,primary,married/in union,0
+35,western,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+20,northern,less than primary,divorced/separated,0
+25,northern,less than primary,married/in union,1
+15,central,more than primary,single/never married,0
+20,central,more than primary,married/in union,0
+40,central,primary,married/in union,1
+20,western,more than primary,married/in union,0
+25,western,primary,married/in union,0
+35,central,more than primary,divorced/separated,0
+25,northern,less than primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,primary,married/in union,0
+35,northern,primary,married/in union,0
+25,western,primary,married/in union,0
+20,western,more than primary,single/never married,0
+15,eastern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+30,eastern,primary,married/in union,0
+15,western,primary,married/in union,0
+20,western,more than primary,single/never married,0
+25,western,primary,married/in union,0
+20,central,primary,married/in union,0
+25,central,less than primary,married/in union,0
+15,central,more than primary,single/never married,0
+35,northern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,1
+20,central,less than primary,married/in union,0
+25,northern,more than primary,married/in union,0
+15,central,primary,divorced/separated,0
+30,northern,primary,married/in union,0
+25,western,primary,married/in union,1
+15,northern,primary,married/in union,0
+35,central,primary,married/in union,0
+30,eastern,primary,married/in union,0
+25,eastern,primary,married/in union,0
+15,western,primary,married/in union,0
+20,western,more than primary,married/in union,0
+30,western,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,central,more than primary,married/in union,0
+35,eastern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,central,primary,married/in union,0
+20,central,primary,married/in union,0
+20,eastern,primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,central,more than primary,married/in union,1
+25,eastern,primary,married/in union,0
+40,northern,less than primary,divorced/separated,0
+30,eastern,primary,widowed,0
+20,western,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+30,eastern,less than primary,married/in union,0
+30,central,primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+15,central,more than primary,married/in union,0
+15,eastern,primary,married/in union,0
+35,western,more than primary,married/in union,0
+25,northern,primary,widowed,0
+15,central,primary,married/in union,0
+15,northern,more than primary,married/in union,0
+25,central,more than primary,widowed,0
+15,northern,less than primary,married/in union,0
+30,western,primary,married/in union,0
+25,northern,primary,married/in union,0
+15,western,more than primary,single/never married,0
+25,central,more than primary,divorced/separated,1
+30,central,primary,married/in union,0
+25,western,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+30,central,primary,married/in union,0
+20,central,primary,married/in union,0
+25,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+35,northern,primary,divorced/separated,0
+20,central,primary,single/never married,0
+15,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,more than primary,married/in union,1
+15,northern,primary,divorced/separated,0
+15,western,primary,married/in union,0
+20,western,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,northern,primary,married/in union,1
+40,central,more than primary,married/in union,0
+25,central,less than primary,widowed,0
+35,central,primary,married/in union,0
+15,eastern,primary,divorced/separated,0
+30,western,primary,married/in union,0
+25,western,primary,married/in union,0
+20,central,primary,divorced/separated,0
+15,central,primary,married/in union,0
+30,central,more than primary,divorced/separated,0
+20,central,more than primary,divorced/separated,0
+30,central,primary,married/in union,1
+35,northern,less than primary,widowed,0
+20,northern,more than primary,single/never married,0
+40,western,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,western,more than primary,single/never married,1
+40,central,more than primary,divorced/separated,0
+30,western,primary,married/in union,0
+35,northern,primary,married/in union,0
+15,central,primary,divorced/separated,1
+15,central,more than primary,divorced/separated,0
+25,central,primary,married/in union,0
+25,central,primary,married/in union,0
+30,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+30,western,primary,married/in union,0
+15,central,primary,married/in union,0
+30,northern,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+20,western,more than primary,divorced/separated,0
+20,central,primary,married/in union,1
+35,northern,less than primary,married/in union,0
+25,western,primary,married/in union,0
+35,central,primary,divorced/separated,0
+20,western,primary,married/in union,0
+20,western,primary,married/in union,0
+40,western,more than primary,married/in union,0
+25,eastern,primary,married/in union,0
+15,western,primary,married/in union,0
+30,northern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+25,central,primary,married/in union,1
+15,central,more than primary,married/in union,1
+40,central,more than primary,widowed,1
+25,northern,less than primary,married/in union,0
+35,western,less than primary,divorced/separated,0
+15,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,northern,primary,married/in union,1
+20,central,more than primary,married/in union,0
+35,eastern,primary,married/in union,1
+30,central,less than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,northern,primary,married/in union,0
+30,central,more than primary,married/in union,0
+40,central,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,central,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+35,northern,primary,married/in union,0
+15,western,more than primary,married/in union,0
+30,northern,primary,married/in union,0
+15,central,more than primary,married/in union,1
+20,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,primary,married/in union,0
+35,western,more than primary,divorced/separated,0
+25,northern,primary,divorced/separated,1
+15,western,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+20,northern,primary,divorced/separated,0
+20,central,primary,divorced/separated,1
+20,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,primary,married/in union,0
+25,northern,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,western,primary,divorced/separated,0
+15,western,primary,married/in union,0
+20,northern,primary,married/in union,0
+20,central,more than primary,single/never married,0
+20,western,primary,divorced/separated,1
+35,northern,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+20,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+30,eastern,primary,married/in union,0
+30,eastern,less than primary,married/in union,0
+15,eastern,primary,married/in union,0
+25,eastern,more than primary,married/in union,0
+30,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+25,northern,primary,married/in union,0
+35,northern,less than primary,married/in union,0
+15,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+15,northern,primary,married/in union,0
+30,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,central,more than primary,married/in union,0
+35,northern,less than primary,widowed,0
+30,northern,primary,married/in union,0
+20,central,primary,divorced/separated,1
+15,central,more than primary,married/in union,0
+15,northern,primary,married/in union,1
+15,northern,less than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+25,northern,primary,married/in union,0
+35,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+30,central,more than primary,married/in union,1
+30,northern,less than primary,divorced/separated,0
+25,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+25,eastern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+20,central,primary,divorced/separated,0
+35,eastern,less than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+30,central,primary,married/in union,0
+35,central,less than primary,married/in union,0
+30,central,more than primary,divorced/separated,0
+15,northern,more than primary,married/in union,0
+15,western,primary,divorced/separated,0
+30,central,primary,married/in union,0
+35,western,less than primary,married/in union,0
+35,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+25,western,less than primary,married/in union,0
+20,northern,primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+15,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+35,northern,primary,married/in union,1
+35,central,less than primary,divorced/separated,0
+25,central,primary,married/in union,0
+15,central,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,primary,widowed,0
+35,western,primary,married/in union,0
+15,central,primary,divorced/separated,0
+20,western,primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+35,northern,primary,married/in union,0
+25,western,less than primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+25,eastern,less than primary,married/in union,0
+25,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+20,western,primary,divorced/separated,0
+15,western,more than primary,single/never married,0
+40,central,primary,widowed,0
+15,central,primary,married/in union,0
+40,central,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+35,western,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,1
+25,central,less than primary,divorced/separated,0
+20,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+20,central,primary,married/in union,0
+25,central,primary,married/in union,0
+25,central,primary,divorced/separated,0
+35,eastern,primary,married/in union,0
+20,western,primary,married/in union,0
+15,eastern,more than primary,divorced/separated,1
+35,central,primary,divorced/separated,1
+25,northern,less than primary,married/in union,0
+35,central,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+25,western,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+25,central,more than primary,single/never married,1
+20,central,more than primary,married/in union,0
+35,central,less than primary,divorced/separated,1
+15,central,more than primary,married/in union,0
+35,central,more than primary,widowed,0
+25,northern,less than primary,married/in union,0
+15,western,primary,divorced/separated,0
+15,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,central,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+25,central,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+25,western,primary,divorced/separated,1
+15,central,more than primary,widowed,0
+30,northern,less than primary,married/in union,0
+25,central,primary,married/in union,0
+20,western,primary,married/in union,0
+15,eastern,primary,married/in union,0
+25,northern,primary,married/in union,0
+15,western,more than primary,married/in union,0
+20,central,primary,married/in union,1
+30,central,primary,divorced/separated,1
+15,western,primary,married/in union,1
+15,northern,primary,married/in union,0
+25,western,less than primary,married/in union,0
+15,central,primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+20,western,more than primary,married/in union,0
+30,northern,primary,married/in union,0
+30,eastern,primary,married/in union,0
+35,eastern,less than primary,married/in union,0
+30,eastern,primary,widowed,0
+20,northern,primary,divorced/separated,0
+35,eastern,more than primary,married/in union,0
+15,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+25,eastern,primary,married/in union,0
+20,central,primary,divorced/separated,0
+15,northern,primary,divorced/separated,0
+15,central,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,central,more than primary,single/never married,1
+15,central,primary,married/in union,1
+25,western,primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+20,central,more than primary,single/never married,0
+15,central,primary,married/in union,0
+20,eastern,primary,divorced/separated,0
+35,eastern,primary,married/in union,0
+30,western,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,northern,primary,single/never married,0
+25,northern,less than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+25,central,primary,married/in union,0
+35,central,less than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+25,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+15,eastern,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,northern,primary,married/in union,1
+40,northern,less than primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+30,central,primary,married/in union,0
+25,northern,primary,married/in union,0
+25,western,primary,married/in union,0
+25,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+30,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+20,western,primary,married/in union,0
+20,western,less than primary,widowed,0
+15,western,primary,divorced/separated,0
+20,western,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+35,central,primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+30,central,primary,divorced/separated,0
+30,northern,less than primary,married/in union,0
+15,western,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+20,northern,more than primary,married/in union,1
+25,northern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,northern,more than primary,single/never married,0
+25,western,more than primary,married/in union,1
+25,eastern,less than primary,married/in union,0
+35,central,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,western,primary,single/never married,0
+15,western,more than primary,married/in union,0
+20,northern,primary,married/in union,1
+30,eastern,primary,married/in union,0
+35,northern,primary,married/in union,0
+30,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+25,western,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+30,central,primary,married/in union,1
+20,central,more than primary,married/in union,1
+30,central,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+15,central,more than primary,divorced/separated,1
+15,northern,more than primary,married/in union,0
+35,central,more than primary,divorced/separated,1
+20,central,primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,more than primary,single/never married,0
+30,central,more than primary,single/never married,0
+20,western,primary,divorced/separated,0
+25,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,1
+20,central,primary,married/in union,0
+30,northern,primary,married/in union,0
+35,central,primary,married/in union,0
+35,northern,less than primary,married/in union,0
+20,western,more than primary,married/in union,1
+20,central,primary,married/in union,0
+30,eastern,primary,married/in union,0
+20,central,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+20,eastern,primary,divorced/separated,1
+35,western,primary,single/never married,0
+20,central,primary,married/in union,1
+20,central,primary,married/in union,0
+25,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+30,eastern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+25,central,more than primary,married/in union,1
+20,eastern,primary,married/in union,0
+40,western,primary,married/in union,0
+25,western,more than primary,married/in union,0
+25,central,primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+30,northern,less than primary,married/in union,0
+20,northern,primary,divorced/separated,0
+30,central,primary,divorced/separated,0
+25,western,primary,married/in union,0
+20,eastern,primary,married/in union,0
+20,western,primary,divorced/separated,0
+20,northern,less than primary,divorced/separated,0
+30,eastern,primary,married/in union,1
+35,western,less than primary,married/in union,1
+20,eastern,more than primary,married/in union,1
+25,central,less than primary,divorced/separated,0
+20,northern,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+20,northern,less than primary,married/in union,0
+30,central,primary,divorced/separated,0
+20,central,primary,married/in union,0
+25,central,primary,married/in union,0
+40,western,primary,married/in union,0
+15,central,less than primary,married/in union,0
+15,northern,primary,married/in union,0
+25,central,primary,married/in union,1
+20,western,primary,married/in union,0
+30,western,more than primary,divorced/separated,0
+30,eastern,primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+30,northern,less than primary,married/in union,0
+25,central,more than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+25,central,more than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,western,primary,married/in union,0
+30,central,less than primary,married/in union,0
+15,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,western,primary,divorced/separated,0
+30,eastern,less than primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+35,central,primary,married/in union,0
+35,northern,less than primary,divorced/separated,0
+25,western,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+30,central,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,northern,less than primary,divorced/separated,0
+25,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+30,western,less than primary,married/in union,0
+25,northern,more than primary,married/in union,0
+30,central,primary,divorced/separated,0
+25,eastern,more than primary,married/in union,0
+40,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,western,less than primary,divorced/separated,0
+35,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+15,eastern,primary,married/in union,0
+35,central,less than primary,married/in union,0
+35,northern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+30,central,less than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+15,central,primary,divorced/separated,0
+35,central,primary,divorced/separated,1
+15,central,more than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+30,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,eastern,more than primary,married/in union,1
+30,western,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+25,western,primary,married/in union,0
+35,central,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+30,central,primary,widowed,0
+40,northern,less than primary,married/in union,0
+15,central,primary,divorced/separated,0
+15,northern,more than primary,married/in union,0
+15,northern,more than primary,married/in union,0
+20,central,primary,divorced/separated,0
+15,central,primary,married/in union,0
+15,central,less than primary,divorced/separated,0
+25,central,primary,married/in union,0
+15,northern,more than primary,married/in union,0
+25,northern,primary,single/never married,0
+20,western,primary,married/in union,0
+25,central,more than primary,married/in union,1
+15,central,more than primary,single/never married,0
+20,northern,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+20,central,primary,divorced/separated,0
+25,western,more than primary,divorced/separated,0
+20,northern,less than primary,married/in union,0
+15,northern,primary,married/in union,0
+25,central,less than primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+35,northern,less than primary,divorced/separated,0
+30,central,less than primary,divorced/separated,0
+30,central,less than primary,married/in union,0
+20,central,primary,married/in union,1
+15,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,western,primary,married/in union,0
+30,northern,primary,divorced/separated,0
+30,central,more than primary,divorced/separated,1
+30,western,primary,married/in union,0
+30,northern,less than primary,married/in union,1
+25,eastern,more than primary,divorced/separated,0
+15,northern,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,western,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,northern,more than primary,divorced/separated,0
+15,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,western,more than primary,single/never married,0
+30,eastern,less than primary,divorced/separated,0
+25,central,primary,married/in union,0
+30,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+35,central,primary,married/in union,0
+30,northern,primary,married/in union,0
+25,western,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,eastern,primary,married/in union,0
+20,northern,primary,married/in union,1
+20,eastern,primary,married/in union,0
+15,western,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+20,western,less than primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+40,western,primary,widowed,0
+15,western,more than primary,married/in union,0
+15,northern,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+25,eastern,primary,married/in union,0
+20,northern,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+30,northern,less than primary,married/in union,0
+20,central,primary,married/in union,0
+35,eastern,more than primary,married/in union,1
+35,northern,primary,divorced/separated,0
+15,central,more than primary,married/in union,1
+30,eastern,primary,married/in union,0
+30,western,primary,married/in union,0
+20,western,primary,married/in union,1
+15,central,primary,divorced/separated,0
+40,central,primary,married/in union,1
+30,western,primary,married/in union,0
+20,northern,primary,married/in union,0
+15,eastern,more than primary,single/never married,1
+35,western,more than primary,married/in union,0
+15,western,primary,single/never married,0
+40,eastern,primary,married/in union,1
+35,northern,primary,widowed,0
+15,northern,primary,divorced/separated,0
+25,northern,less than primary,married/in union,0
+20,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+15,central,more than primary,single/never married,0
+35,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,more than primary,widowed,0
+15,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,central,primary,married/in union,0
+20,central,primary,divorced/separated,0
+15,central,more than primary,divorced/separated,0
+20,northern,less than primary,married/in union,0
+20,central,more than primary,married/in union,1
+15,central,more than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+35,central,primary,married/in union,0
+25,eastern,primary,married/in union,1
+25,northern,primary,married/in union,0
+20,central,less than primary,married/in union,0
+35,eastern,more than primary,married/in union,1
+25,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,primary,divorced/separated,0
+20,central,primary,divorced/separated,0
+20,central,primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+30,central,primary,married/in union,0
+25,central,primary,married/in union,0
+15,central,primary,married/in union,1
+30,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,central,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,single/never married,0
+20,northern,less than primary,married/in union,0
+35,western,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+30,central,primary,married/in union,0
+15,western,more than primary,single/never married,0
+15,northern,more than primary,married/in union,0
+15,central,more than primary,single/never married,1
+40,eastern,less than primary,divorced/separated,0
+15,western,primary,married/in union,0
+25,central,primary,married/in union,0
+20,western,primary,married/in union,0
+25,central,more than primary,married/in union,0
+35,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+35,eastern,primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+35,northern,primary,married/in union,0
+35,northern,primary,widowed,0
+15,western,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,central,primary,married/in union,1
+15,western,primary,married/in union,0
+15,central,primary,married/in union,0
+30,western,less than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+40,western,primary,married/in union,0
+15,central,primary,single/never married,0
+15,western,primary,divorced/separated,1
+20,central,more than primary,divorced/separated,0
+15,northern,more than primary,married/in union,0
+40,central,primary,divorced/separated,0
+30,central,primary,married/in union,0
+20,western,primary,married/in union,0
+35,northern,primary,married/in union,0
+25,western,more than primary,married/in union,0
+30,eastern,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+25,western,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+35,northern,less than primary,divorced/separated,0
+35,eastern,primary,divorced/separated,0
+25,central,primary,married/in union,1
+35,eastern,primary,married/in union,0
+20,western,primary,married/in union,0
+35,eastern,primary,married/in union,0
+15,eastern,primary,married/in union,1
+35,central,more than primary,married/in union,1
+20,central,more than primary,married/in union,0
+40,northern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,northern,primary,married/in union,1
+30,western,more than primary,married/in union,0
+20,central,primary,married/in union,0
+20,western,more than primary,married/in union,0
+30,northern,less than primary,widowed,0
+20,central,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,more than primary,married/in union,1
+15,central,more than primary,single/never married,0
+25,western,primary,married/in union,0
+30,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+30,central,less than primary,married/in union,0
+15,western,primary,single/never married,0
+20,central,primary,married/in union,1
+40,western,less than primary,married/in union,0
+40,northern,less than primary,married/in union,0
+25,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,1
+30,central,primary,married/in union,0
+35,central,primary,divorced/separated,0
+40,western,primary,divorced/separated,0
+20,eastern,primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,western,primary,single/never married,0
+15,western,primary,married/in union,0
+35,eastern,primary,married/in union,0
+30,eastern,more than primary,married/in union,0
+20,central,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+35,central,primary,divorced/separated,0
+20,western,more than primary,married/in union,1
+25,western,primary,married/in union,1
+15,northern,more than primary,married/in union,0
+25,central,primary,divorced/separated,1
+20,central,more than primary,married/in union,0
+15,central,primary,married/in union,1
+25,western,less than primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,primary,married/in union,0
+15,western,more than primary,divorced/separated,0
+15,central,primary,married/in union,0
+15,central,primary,married/in union,0
+30,western,less than primary,married/in union,0
+30,central,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+20,central,primary,divorced/separated,1
+20,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+30,central,more than primary,married/in union,0
+30,western,primary,widowed,0
+25,northern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+35,western,primary,married/in union,0
+30,eastern,primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,more than primary,single/never married,0
+25,central,primary,widowed,0
+25,northern,primary,widowed,0
+15,central,primary,married/in union,0
+40,northern,primary,married/in union,0
+30,central,primary,married/in union,1
+25,western,more than primary,divorced/separated,1
+15,central,more than primary,married/in union,0
+15,western,primary,divorced/separated,0
+20,northern,primary,widowed,0
+30,western,primary,divorced/separated,0
+30,western,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,primary,married/in union,1
+20,western,primary,married/in union,0
+15,northern,more than primary,married/in union,0
+15,central,less than primary,married/in union,0
+25,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+25,central,more than primary,divorced/separated,1
+15,central,more than primary,single/never married,0
+15,central,primary,divorced/separated,1
+15,western,less than primary,married/in union,0
+30,central,primary,married/in union,0
+20,western,more than primary,divorced/separated,0
+15,central,less than primary,married/in union,0
+30,western,primary,married/in union,0
+20,western,more than primary,single/never married,0
+20,central,more than primary,married/in union,0
+15,eastern,primary,married/in union,0
+35,northern,primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+20,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,central,more than primary,married/in union,0
+25,western,primary,married/in union,1
+35,central,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+20,eastern,primary,divorced/separated,1
+15,northern,more than primary,married/in union,0
+20,central,primary,married/in union,0
+35,central,more than primary,married/in union,0
+20,western,more than primary,married/in union,0
+35,central,primary,divorced/separated,0
+30,central,more than primary,divorced/separated,0
+15,central,primary,married/in union,1
+20,western,more than primary,married/in union,0
+20,central,primary,married/in union,1
+15,central,primary,married/in union,0
+35,central,primary,married/in union,0
+20,central,primary,married/in union,0
+20,western,more than primary,married/in union,0
+35,central,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+30,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,western,primary,married/in union,0
+30,western,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+25,northern,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+20,eastern,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+35,central,less than primary,married/in union,0
+15,eastern,more than primary,married/in union,1
+25,western,more than primary,married/in union,0
+20,western,more than primary,married/in union,0
+30,western,primary,married/in union,0
+25,eastern,primary,married/in union,1
+15,northern,more than primary,single/never married,0
+15,western,less than primary,married/in union,0
+30,western,primary,married/in union,0
+15,eastern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+35,western,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+25,eastern,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,northern,primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+20,eastern,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+25,central,primary,divorced/separated,0
+30,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+30,western,primary,widowed,0
+15,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+40,western,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+30,central,primary,divorced/separated,0
+30,northern,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,western,primary,married/in union,0
+30,central,more than primary,widowed,0
+15,northern,less than primary,married/in union,0
+20,western,primary,married/in union,0
+15,eastern,more than primary,single/never married,0
+20,eastern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,primary,single/never married,0
+30,western,primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+15,western,more than primary,married/in union,0
+40,central,primary,married/in union,0
+20,western,more than primary,married/in union,0
+25,northern,primary,divorced/separated,0
+35,central,primary,married/in union,1
+20,central,more than primary,single/never married,0
+30,eastern,primary,married/in union,0
+30,western,primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,northern,primary,divorced/separated,0
+15,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+30,central,primary,married/in union,1
+15,northern,less than primary,married/in union,0
+25,central,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,northern,primary,divorced/separated,0
+35,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,western,primary,married/in union,0
+30,central,primary,widowed,0
+15,central,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+25,central,more than primary,married/in union,0
+35,central,primary,married/in union,0
+30,eastern,primary,married/in union,1
+40,eastern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,western,primary,divorced/separated,0
+30,northern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+35,central,primary,married/in union,0
+20,central,more than primary,single/never married,0
+20,eastern,primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+25,western,primary,married/in union,0
+20,central,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+30,central,primary,married/in union,0
+35,central,primary,widowed,0
+40,central,more than primary,divorced/separated,0
+35,western,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+35,central,less than primary,married/in union,0
+35,eastern,less than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,central,less than primary,married/in union,1
+30,central,primary,married/in union,0
+30,central,primary,divorced/separated,0
+35,northern,less than primary,married/in union,1
+25,eastern,primary,married/in union,0
+25,western,less than primary,married/in union,0
+15,central,more than primary,married/in union,1
+20,central,primary,married/in union,0
+15,northern,primary,divorced/separated,1
+20,central,primary,divorced/separated,0
+25,western,primary,married/in union,0
+20,northern,primary,married/in union,0
+30,eastern,primary,widowed,0
+30,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,western,more than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,primary,divorced/separated,0
+15,central,primary,married/in union,0
+30,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+35,central,primary,married/in union,0
+30,western,primary,married/in union,0
+20,northern,primary,married/in union,0
+30,central,primary,married/in union,0
+20,northern,primary,widowed,0
+20,western,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+35,western,primary,married/in union,0
+25,eastern,more than primary,married/in union,0
+30,western,less than primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+30,western,primary,married/in union,0
+30,central,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,central,primary,married/in union,1
+25,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,1
+25,central,less than primary,married/in union,0
+25,central,less than primary,divorced/separated,0
+35,northern,less than primary,married/in union,0
+25,central,less than primary,married/in union,0
+20,central,more than primary,single/never married,0
+35,central,primary,married/in union,0
+15,central,primary,married/in union,0
+25,northern,primary,divorced/separated,0
+30,central,more than primary,married/in union,1
+15,central,more than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+30,northern,primary,widowed,0
+25,central,primary,married/in union,0
+30,central,more than primary,divorced/separated,1
+15,northern,more than primary,married/in union,1
+15,western,more than primary,divorced/separated,0
+40,western,primary,widowed,0
+15,central,more than primary,married/in union,1
+15,central,more than primary,single/never married,0
+20,northern,primary,divorced/separated,0
+35,central,more than primary,married/in union,1
+15,western,primary,married/in union,0
+20,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+30,central,primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+20,northern,primary,married/in union,0
+25,northern,primary,married/in union,0
+25,western,primary,married/in union,0
+35,western,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+20,central,primary,married/in union,1
+30,northern,less than primary,married/in union,0
+25,western,less than primary,married/in union,0
+20,central,primary,married/in union,1
+20,central,more than primary,single/never married,0
+20,central,less than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+30,central,more than primary,divorced/separated,0
+15,western,more than primary,married/in union,0
+30,western,primary,married/in union,0
+15,central,primary,married/in union,0
+30,western,primary,married/in union,0
+25,central,primary,divorced/separated,1
+30,central,primary,married/in union,0
+20,eastern,primary,married/in union,1
+15,northern,less than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+40,eastern,primary,divorced/separated,1
+35,western,less than primary,married/in union,1
+35,central,more than primary,married/in union,1
+15,northern,more than primary,married/in union,0
+25,western,primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,western,primary,married/in union,0
+20,central,primary,divorced/separated,0
+40,northern,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,western,primary,married/in union,0
+30,eastern,less than primary,married/in union,1
+30,central,less than primary,married/in union,0
+30,central,primary,married/in union,0
+30,central,primary,married/in union,0
+20,western,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,more than primary,single/never married,1
+15,western,more than primary,married/in union,0
+35,eastern,primary,married/in union,0
+40,western,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,northern,primary,married/in union,0
+30,northern,primary,married/in union,0
+20,central,primary,widowed,0
+15,central,primary,married/in union,0
+30,central,primary,divorced/separated,0
+15,western,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,central,more than primary,single/never married,0
+25,eastern,primary,married/in union,0
+30,central,less than primary,married/in union,0
+20,northern,primary,divorced/separated,1
+30,central,less than primary,married/in union,0
+35,western,primary,married/in union,0
+35,central,primary,widowed,0
+20,northern,primary,married/in union,0
+25,northern,primary,married/in union,0
+30,central,primary,married/in union,0
+25,central,primary,married/in union,0
+30,central,primary,widowed,0
+40,western,primary,married/in union,0
+25,eastern,primary,married/in union,1
+30,central,primary,married/in union,0
+15,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+40,northern,less than primary,married/in union,0
+25,central,primary,divorced/separated,0
+25,central,more than primary,widowed,0
+25,eastern,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+25,central,primary,divorced/separated,1
+15,northern,primary,married/in union,0
+20,western,more than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+30,central,primary,married/in union,0
+25,western,primary,divorced/separated,0
+35,central,more than primary,divorced/separated,0
+30,central,more than primary,married/in union,0
+35,central,more than primary,divorced/separated,0
+25,central,more than primary,divorced/separated,0
+15,western,more than primary,single/never married,0
+15,central,more than primary,divorced/separated,0
+15,central,more than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+35,western,primary,divorced/separated,0
+35,central,less than primary,married/in union,0
+25,western,more than primary,married/in union,0
+25,eastern,primary,married/in union,0
+15,eastern,primary,married/in union,0
+40,central,more than primary,married/in union,0
+30,eastern,primary,married/in union,0
+30,western,primary,married/in union,1
+35,central,primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+20,eastern,primary,married/in union,0
+25,eastern,primary,married/in union,0
+35,central,primary,married/in union,0
+15,western,more than primary,married/in union,0
+20,central,primary,married/in union,0
+35,central,more than primary,married/in union,0
+40,central,less than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+30,eastern,less than primary,married/in union,0
+20,central,primary,married/in union,0
+35,western,primary,widowed,0
+25,northern,primary,married/in union,0
+25,central,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+40,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+30,eastern,more than primary,married/in union,0
+15,western,more than primary,single/never married,0
+40,central,primary,divorced/separated,0
+25,eastern,primary,married/in union,1
+30,eastern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,primary,widowed,0
+35,western,primary,married/in union,0
+15,central,primary,married/in union,0
+20,eastern,primary,divorced/separated,0
+30,central,primary,married/in union,0
+30,central,more than primary,married/in union,0
+30,central,more than primary,widowed,0
+30,central,more than primary,divorced/separated,0
+20,northern,more than primary,married/in union,1
+15,central,more than primary,divorced/separated,0
+20,central,more than primary,divorced/separated,0
+35,central,primary,married/in union,0
+15,central,primary,divorced/separated,0
+35,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,1
+15,central,more than primary,single/never married,0
+15,northern,primary,married/in union,0
+25,central,primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+30,northern,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+15,central,more than primary,divorced/separated,1
+20,western,primary,married/in union,0
+15,central,primary,married/in union,0
+40,central,primary,married/in union,0
+15,central,primary,married/in union,0
+25,western,more than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+20,central,primary,married/in union,0
+20,central,primary,divorced/separated,1
+35,northern,primary,married/in union,0
+35,central,less than primary,married/in union,0
+25,central,primary,divorced/separated,0
+15,eastern,more than primary,married/in union,0
+25,central,less than primary,divorced/separated,0
+40,central,more than primary,married/in union,1
+20,central,more than primary,married/in union,0
+35,northern,less than primary,divorced/separated,0
+40,western,less than primary,married/in union,1
+25,central,more than primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+15,central,more than primary,divorced/separated,1
+35,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+35,northern,primary,married/in union,0
+35,central,less than primary,divorced/separated,1
+25,northern,more than primary,single/never married,0
+35,central,primary,married/in union,0
+35,northern,less than primary,widowed,0
+15,eastern,primary,married/in union,0
+15,central,primary,married/in union,0
+35,northern,less than primary,married/in union,0
+25,eastern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+25,central,primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,eastern,primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+35,western,primary,married/in union,0
+20,central,less than primary,married/in union,0
+35,northern,primary,married/in union,0
+15,western,primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+30,central,primary,married/in union,0
+25,eastern,primary,married/in union,0
+25,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+35,western,less than primary,divorced/separated,0
+35,northern,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,northern,primary,divorced/separated,0
+40,western,primary,married/in union,0
+15,eastern,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,northern,primary,married/in union,1
+20,eastern,primary,married/in union,0
+25,eastern,less than primary,married/in union,0
+15,northern,primary,married/in union,0
+25,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+15,central,primary,divorced/separated,0
+15,western,primary,married/in union,0
+30,central,more than primary,married/in union,1
+20,central,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,northern,primary,married/in union,1
+15,central,less than primary,single/never married,0
+15,northern,primary,married/in union,0
+35,western,less than primary,widowed,0
+25,central,primary,married/in union,0
+20,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+30,northern,primary,married/in union,1
+35,western,less than primary,married/in union,0
+25,central,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+15,central,primary,divorced/separated,0
+20,central,primary,married/in union,0
+35,central,more than primary,married/in union,0
+35,central,primary,married/in union,0
+35,central,less than primary,married/in union,0
+15,central,primary,married/in union,0
+25,eastern,primary,married/in union,0
+15,central,primary,married/in union,1
+15,central,primary,married/in union,0
+15,central,primary,married/in union,1
+25,western,primary,single/never married,0
+20,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,central,more than primary,married/in union,1
+15,central,primary,married/in union,0
+35,eastern,primary,married/in union,0
+25,western,primary,married/in union,0
+25,western,primary,married/in union,0
+35,western,less than primary,married/in union,0
+40,eastern,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+20,central,more than primary,divorced/separated,0
+20,central,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+40,central,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+35,eastern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,primary,married/in union,0
+30,eastern,primary,married/in union,0
+25,northern,less than primary,married/in union,1
+40,central,less than primary,divorced/separated,0
+30,eastern,primary,divorced/separated,0
+35,central,primary,widowed,0
+25,central,primary,divorced/separated,0
+25,central,less than primary,married/in union,1
+30,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,central,primary,single/never married,0
+35,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+25,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,northern,more than primary,married/in union,0
+20,central,more than primary,single/never married,0
+30,central,more than primary,married/in union,0
+25,western,less than primary,married/in union,0
+15,central,primary,married/in union,1
+30,central,primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,northern,less than primary,widowed,0
+35,northern,primary,married/in union,0
+25,eastern,less than primary,divorced/separated,0
+20,central,more than primary,divorced/separated,0
+40,western,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+30,western,primary,married/in union,1
+15,central,primary,married/in union,0
+40,eastern,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+20,western,less than primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+30,central,more than primary,married/in union,0
+30,eastern,primary,married/in union,1
+20,northern,primary,married/in union,0
+35,central,less than primary,married/in union,0
+25,central,more than primary,married/in union,0
+30,western,primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+35,western,more than primary,divorced/separated,0
+15,central,primary,divorced/separated,1
+35,eastern,less than primary,married/in union,1
+15,northern,less than primary,married/in union,0
+20,eastern,less than primary,married/in union,1
+30,central,more than primary,divorced/separated,0
+35,northern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+15,eastern,primary,married/in union,0
+20,western,primary,married/in union,0
+25,western,primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,married/in union,1
+15,eastern,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,northern,primary,married/in union,1
+20,central,more than primary,single/never married,0
+15,eastern,primary,married/in union,0
+20,western,primary,married/in union,0
+35,western,less than primary,married/in union,0
+20,central,primary,married/in union,1
+15,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+25,central,primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+20,western,primary,married/in union,0
+20,central,less than primary,married/in union,0
+20,eastern,more than primary,married/in union,1
+15,central,primary,married/in union,1
+40,western,less than primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,married/in union,1
+15,central,more than primary,married/in union,0
+40,northern,less than primary,married/in union,1
+30,western,primary,married/in union,0
+20,western,primary,married/in union,0
+40,central,less than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+30,northern,primary,married/in union,1
+15,northern,primary,married/in union,0
+15,central,more than primary,single/never married,0
+30,central,less than primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+25,northern,primary,married/in union,0
+40,western,primary,married/in union,0
+25,central,primary,widowed,0
+30,western,primary,married/in union,0
+30,central,less than primary,married/in union,0
+20,central,primary,married/in union,0
+30,central,primary,married/in union,1
+35,northern,primary,married/in union,0
+35,central,more than primary,married/in union,0
+30,northern,primary,married/in union,0
+15,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+30,western,primary,married/in union,0
+40,northern,less than primary,divorced/separated,0
+15,central,primary,married/in union,0
+20,northern,less than primary,widowed,0
+20,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+40,northern,primary,married/in union,0
+25,eastern,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+40,central,less than primary,widowed,0
+20,northern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+35,central,primary,married/in union,0
+20,western,primary,married/in union,0
+20,western,more than primary,single/never married,0
+15,northern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+25,western,primary,married/in union,0
+20,eastern,primary,married/in union,1
+20,central,primary,married/in union,0
+30,western,more than primary,married/in union,0
+30,central,primary,married/in union,1
+35,central,less than primary,married/in union,0
+40,central,less than primary,widowed,0
+35,eastern,primary,married/in union,1
+15,central,primary,married/in union,0
+15,northern,more than primary,married/in union,0
+15,western,primary,married/in union,0
+20,western,primary,married/in union,1
+25,central,less than primary,married/in union,1
+15,northern,primary,married/in union,1
+35,northern,less than primary,divorced/separated,0
+20,central,primary,divorced/separated,0
+40,western,primary,married/in union,0
+15,western,primary,married/in union,0
+25,central,more than primary,married/in union,1
+15,western,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+35,northern,primary,divorced/separated,0
+30,eastern,primary,married/in union,0
+15,central,primary,married/in union,0
+30,western,less than primary,married/in union,0
+15,northern,primary,divorced/separated,1
+30,northern,less than primary,married/in union,0
+20,western,less than primary,married/in union,0
+30,central,more than primary,married/in union,0
+30,western,primary,divorced/separated,0
+15,central,primary,married/in union,0
+25,central,primary,married/in union,0
+30,central,primary,divorced/separated,0
+35,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+30,central,primary,divorced/separated,0
+40,western,less than primary,married/in union,0
+30,central,primary,married/in union,1
+15,central,more than primary,married/in union,0
+25,western,less than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+35,central,primary,married/in union,0
+15,eastern,more than primary,single/never married,0
+20,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+15,western,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+30,northern,less than primary,widowed,0
+25,central,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+25,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+25,western,primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+25,western,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+15,northern,more than primary,divorced/separated,0
+35,central,primary,married/in union,0
+30,western,primary,married/in union,0
+30,central,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,central,primary,divorced/separated,0
+35,western,primary,married/in union,0
+25,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,primary,married/in union,0
+25,central,less than primary,married/in union,0
+35,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+20,central,primary,married/in union,0
+25,central,primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,central,more than primary,divorced/separated,1
+35,central,primary,married/in union,0
+25,northern,primary,married/in union,0
+30,northern,primary,married/in union,0
+15,western,primary,single/never married,0
+15,western,primary,married/in union,0
+15,central,more than primary,single/never married,0
+30,central,less than primary,widowed,0
+40,central,primary,divorced/separated,1
+15,central,more than primary,married/in union,0
+30,western,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,primary,married/in union,0
+25,northern,primary,married/in union,1
+15,western,more than primary,married/in union,0
+30,central,primary,married/in union,0
+25,western,primary,married/in union,1
+35,central,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+40,western,more than primary,married/in union,0
+20,eastern,more than primary,married/in union,1
+15,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+35,western,less than primary,married/in union,0
+40,western,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+30,eastern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,northern,more than primary,divorced/separated,1
+40,central,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+20,central,primary,married/in union,1
+35,central,primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+40,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+15,northern,more than primary,married/in union,0
+30,central,primary,married/in union,1
+15,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+20,western,primary,married/in union,0
+15,northern,primary,single/never married,0
+15,central,primary,married/in union,0
+30,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,central,primary,divorced/separated,0
+25,eastern,primary,married/in union,1
+30,western,primary,married/in union,0
+30,northern,primary,married/in union,1
+15,central,more than primary,married/in union,1
+15,northern,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,eastern,primary,married/in union,0
+25,western,primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+30,western,more than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+35,eastern,more than primary,married/in union,1
+35,northern,primary,married/in union,0
+35,central,primary,married/in union,0
+25,central,more than primary,married/in union,0
+30,western,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+20,northern,primary,married/in union,0
+25,central,primary,married/in union,0
+25,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,central,more than primary,divorced/separated,1
+20,central,more than primary,married/in union,1
+20,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,eastern,more than primary,married/in union,0
+15,western,primary,divorced/separated,0
+30,central,more than primary,single/never married,0
+15,eastern,primary,married/in union,0
+25,central,primary,married/in union,1
+30,western,primary,married/in union,0
+25,northern,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,eastern,primary,married/in union,0
+15,northern,primary,married/in union,0
+30,central,primary,married/in union,0
+30,central,primary,married/in union,0
+15,eastern,primary,married/in union,0
+35,western,primary,married/in union,0
+15,western,primary,married/in union,0
+35,western,primary,divorced/separated,0
+25,central,primary,divorced/separated,0
+15,eastern,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+30,central,primary,divorced/separated,0
+20,northern,less than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,western,primary,married/in union,0
+25,western,primary,married/in union,0
+15,eastern,primary,married/in union,0
+35,northern,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+25,central,less than primary,married/in union,0
+15,central,primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,primary,married/in union,0
+35,northern,more than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+35,western,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+30,central,primary,married/in union,0
+15,central,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+30,western,less than primary,married/in union,0
+30,northern,primary,married/in union,1
+15,central,primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,divorced/separated,1
+35,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+30,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+15,central,primary,married/in union,0
+25,central,less than primary,married/in union,0
+35,central,less than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+35,western,primary,widowed,0
+15,western,less than primary,married/in union,0
+35,central,primary,married/in union,0
+25,eastern,less than primary,married/in union,0
+25,central,primary,married/in union,0
+30,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,central,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+15,western,less than primary,divorced/separated,0
+15,northern,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+25,central,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,western,less than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,northern,primary,married/in union,0
+25,northern,primary,married/in union,0
+30,northern,primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,western,more than primary,married/in union,0
+15,western,primary,single/never married,0
+30,western,more than primary,married/in union,1
+30,central,primary,married/in union,0
+25,central,primary,married/in union,1
+30,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,more than primary,single/never married,0
+15,western,more than primary,divorced/separated,0
+20,western,primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+15,western,primary,married/in union,1
+25,western,more than primary,married/in union,0
+35,western,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+15,western,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+30,western,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+20,central,primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,primary,married/in union,1
+15,eastern,primary,married/in union,0
+20,eastern,primary,married/in union,0
+30,western,primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+25,central,more than primary,divorced/separated,0
+20,northern,primary,married/in union,0
+35,central,more than primary,married/in union,1
+25,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+25,eastern,primary,divorced/separated,0
+15,western,primary,married/in union,0
+20,central,primary,married/in union,0
+20,northern,primary,divorced/separated,0
+30,northern,less than primary,married/in union,0
+20,central,primary,divorced/separated,0
+25,western,more than primary,married/in union,0
+15,central,less than primary,married/in union,1
+30,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,more than primary,married/in union,0
+15,western,primary,divorced/separated,0
+15,northern,primary,married/in union,0
+30,central,primary,widowed,1
+20,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,eastern,primary,married/in union,0
+30,northern,more than primary,widowed,0
+15,eastern,primary,married/in union,0
+15,central,primary,married/in union,1
+30,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+15,eastern,primary,single/never married,0
+15,central,more than primary,married/in union,0
+25,northern,more than primary,married/in union,0
+15,central,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,central,primary,married/in union,1
+15,western,primary,divorced/separated,0
+25,western,primary,divorced/separated,0
+15,northern,primary,married/in union,0
+15,central,primary,widowed,0
+20,northern,primary,married/in union,1
+20,eastern,more than primary,married/in union,1
+15,northern,more than primary,single/never married,0
+20,central,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+15,northern,more than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+30,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+30,western,less than primary,married/in union,0
+30,northern,more than primary,widowed,0
+20,northern,less than primary,married/in union,0
+25,eastern,primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+35,eastern,primary,married/in union,0
+20,western,more than primary,married/in union,0
+25,northern,more than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+40,western,more than primary,married/in union,0
+35,western,more than primary,divorced/separated,0
+30,northern,primary,widowed,0
+15,northern,primary,married/in union,0
+20,central,more than primary,married/in union,1
+15,central,primary,divorced/separated,0
+15,northern,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+35,central,less than primary,married/in union,0
+35,northern,primary,widowed,0
+20,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+35,central,less than primary,widowed,0
+30,central,primary,divorced/separated,1
+25,northern,less than primary,married/in union,0
+15,northern,primary,married/in union,1
+25,central,primary,divorced/separated,0
+30,western,more than primary,married/in union,0
+15,western,primary,married/in union,1
+25,eastern,more than primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+15,eastern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,central,primary,married/in union,1
+15,western,primary,married/in union,0
+15,northern,primary,married/in union,1
+35,eastern,less than primary,married/in union,0
+15,central,primary,divorced/separated,0
+25,central,primary,married/in union,1
+30,central,primary,divorced/separated,0
+25,central,less than primary,married/in union,0
+20,western,primary,married/in union,0
+35,central,primary,divorced/separated,0
+25,eastern,primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+20,central,more than primary,divorced/separated,1
+25,eastern,primary,married/in union,0
+15,northern,more than primary,married/in union,1
+35,central,primary,married/in union,1
+15,eastern,more than primary,married/in union,0
+35,northern,primary,widowed,0
+15,central,primary,single/never married,0
+15,eastern,primary,married/in union,0
+25,central,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+25,central,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,northern,primary,married/in union,0
+15,central,primary,divorced/separated,1
+15,northern,primary,divorced/separated,1
+20,central,more than primary,divorced/separated,1
+30,central,less than primary,married/in union,0
+15,central,primary,married/in union,0
+35,eastern,primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+25,central,primary,married/in union,0
+15,central,primary,widowed,0
+35,western,primary,married/in union,0
+20,eastern,primary,married/in union,0
+25,central,primary,divorced/separated,0
+30,central,more than primary,divorced/separated,0
+20,eastern,primary,married/in union,0
+30,central,primary,married/in union,0
+35,western,primary,married/in union,0
+30,northern,primary,divorced/separated,0
+15,central,more than primary,divorced/separated,0
+20,central,primary,married/in union,1
+30,eastern,primary,married/in union,0
+25,central,primary,married/in union,1
+15,central,primary,married/in union,0
+30,central,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+15,central,primary,married/in union,0
+35,western,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+30,western,less than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,western,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+30,central,more than primary,married/in union,0
+15,northern,more than primary,married/in union,1
+15,northern,more than primary,married/in union,0
+20,central,more than primary,married/in union,1
+30,central,primary,married/in union,0
+35,eastern,primary,married/in union,0
+35,central,more than primary,divorced/separated,0
+35,western,primary,married/in union,0
+30,central,primary,married/in union,0
+15,central,primary,married/in union,0
+25,central,primary,married/in union,0
+25,northern,primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,central,primary,married/in union,1
+20,western,primary,married/in union,0
+30,northern,primary,married/in union,0
+30,northern,primary,married/in union,0
+30,central,primary,divorced/separated,0
+20,northern,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,central,primary,divorced/separated,0
+25,western,less than primary,widowed,0
+30,western,more than primary,married/in union,1
+20,eastern,more than primary,divorced/separated,1
+20,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+35,western,less than primary,widowed,0
+20,eastern,primary,married/in union,0
+15,western,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+20,eastern,primary,married/in union,0
+20,western,more than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+15,eastern,more than primary,married/in union,1
+15,eastern,primary,married/in union,0
+25,central,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+20,northern,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+40,northern,primary,married/in union,0
+35,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+35,central,more than primary,widowed,0
+35,eastern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+25,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,northern,primary,divorced/separated,0
+15,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+40,central,primary,married/in union,1
+35,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,eastern,primary,married/in union,0
+35,northern,less than primary,divorced/separated,0
+35,central,more than primary,divorced/separated,0
+30,central,less than primary,single/never married,0
+25,central,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+15,central,primary,married/in union,0
+30,central,primary,married/in union,0
+40,central,primary,divorced/separated,1
+30,western,more than primary,divorced/separated,0
+20,northern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+35,northern,primary,married/in union,0
+30,western,less than primary,married/in union,0
+15,central,more than primary,single/never married,0
+25,northern,less than primary,divorced/separated,0
+25,northern,less than primary,married/in union,0
+35,northern,less than primary,widowed,0
+15,northern,less than primary,married/in union,0
+20,central,primary,married/in union,0
+30,central,more than primary,divorced/separated,1
+25,central,primary,married/in union,1
+15,northern,primary,married/in union,0
+25,central,less than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+25,central,primary,married/in union,1
+20,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,primary,married/in union,0
+35,central,primary,married/in union,0
+25,central,primary,married/in union,0
+40,central,primary,married/in union,0
+20,western,more than primary,single/never married,0
+35,western,primary,widowed,0
+20,central,less than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+40,western,less than primary,married/in union,0
+30,eastern,less than primary,married/in union,0
+35,central,more than primary,married/in union,0
+40,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+30,central,less than primary,married/in union,1
+20,western,primary,married/in union,0
+15,eastern,primary,married/in union,0
+25,central,primary,married/in union,1
+30,western,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,central,primary,divorced/separated,0
+35,eastern,primary,married/in union,0
+15,western,more than primary,married/in union,0
+40,central,primary,married/in union,0
+35,eastern,primary,married/in union,0
+25,northern,primary,married/in union,0
+30,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+20,eastern,primary,married/in union,1
+35,central,primary,married/in union,0
+25,eastern,primary,married/in union,0
+25,central,primary,married/in union,1
+35,northern,less than primary,married/in union,0
+30,eastern,primary,married/in union,0
+25,western,primary,married/in union,0
+15,western,more than primary,married/in union,0
+35,central,less than primary,married/in union,0
+15,eastern,primary,divorced/separated,0
+15,northern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+20,eastern,primary,married/in union,0
+25,central,more than primary,married/in union,1
+25,central,more than primary,married/in union,1
+35,northern,primary,married/in union,0
+15,northern,primary,married/in union,0
+40,eastern,primary,divorced/separated,0
+35,western,less than primary,divorced/separated,0
+40,northern,primary,married/in union,0
+15,central,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,central,primary,divorced/separated,0
+20,central,primary,married/in union,1
+15,central,primary,married/in union,0
+15,central,primary,married/in union,0
+40,central,less than primary,widowed,0
+35,northern,less than primary,married/in union,0
+35,northern,primary,married/in union,1
+15,western,primary,married/in union,0
+35,eastern,primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,western,less than primary,widowed,0
+30,central,more than primary,married/in union,0
+35,central,primary,married/in union,0
+15,northern,more than primary,divorced/separated,1
+30,western,primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+35,central,more than primary,divorced/separated,0
+25,northern,less than primary,married/in union,0
+30,central,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,northern,primary,single/never married,0
+20,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+25,central,primary,married/in union,0
+35,western,primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,primary,divorced/separated,1
+15,northern,primary,married/in union,0
+35,western,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,western,more than primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+30,central,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+35,northern,primary,married/in union,0
+35,central,more than primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+15,central,more than primary,single/never married,1
+15,eastern,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,western,more than primary,married/in union,0
+20,western,primary,single/never married,0
+20,central,primary,divorced/separated,1
+25,northern,primary,married/in union,1
+25,central,primary,married/in union,1
+35,northern,less than primary,widowed,0
+15,western,more than primary,married/in union,0
+35,central,primary,married/in union,0
+30,eastern,more than primary,married/in union,0
+15,western,primary,married/in union,1
+35,eastern,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,primary,divorced/separated,0
+25,western,less than primary,married/in union,0
+15,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+30,northern,primary,married/in union,0
+20,central,more than primary,single/never married,0
+30,central,less than primary,married/in union,0
+20,western,primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+35,northern,primary,widowed,0
+30,western,primary,married/in union,0
+20,western,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+30,central,primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,central,more than primary,married/in union,0
+15,central,more than primary,married/in union,1
+15,western,more than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+15,central,less than primary,married/in union,0
+40,central,less than primary,married/in union,0
+30,eastern,primary,divorced/separated,0
+20,central,primary,divorced/separated,0
+20,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,1
+20,western,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,more than primary,married/in union,1
+15,western,primary,married/in union,0
+25,northern,less than primary,divorced/separated,1
+20,northern,primary,married/in union,0
+30,central,primary,married/in union,0
+30,western,primary,married/in union,0
+30,northern,primary,divorced/separated,1
+25,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+30,eastern,primary,married/in union,0
+20,western,more than primary,married/in union,0
+35,northern,primary,married/in union,0
+15,western,primary,widowed,0
+20,northern,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+25,western,primary,married/in union,0
+15,western,more than primary,divorced/separated,0
+30,central,primary,married/in union,0
+15,central,primary,married/in union,1
+25,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+35,central,less than primary,divorced/separated,0
+15,northern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,eastern,primary,married/in union,0
+15,central,more than primary,single/never married,0
+30,eastern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,central,primary,married/in union,0
+25,eastern,more than primary,divorced/separated,0
+20,central,more than primary,married/in union,0
+20,western,more than primary,married/in union,0
+30,eastern,more than primary,married/in union,0
+30,western,more than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+40,northern,less than primary,widowed,0
+30,western,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+35,eastern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+35,western,less than primary,married/in union,0
+25,western,primary,divorced/separated,0
+15,northern,primary,married/in union,0
+20,northern,less than primary,married/in union,0
+25,western,less than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+20,central,primary,married/in union,0
+35,northern,primary,married/in union,0
+35,central,more than primary,widowed,1
+30,northern,primary,married/in union,0
+25,western,primary,married/in union,1
+20,eastern,primary,widowed,1
+15,northern,primary,married/in union,0
+25,western,primary,married/in union,1
+20,western,primary,married/in union,0
+20,eastern,less than primary,married/in union,1
+15,western,more than primary,married/in union,0
+15,central,primary,married/in union,1
+15,western,primary,married/in union,0
+25,eastern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+15,western,primary,married/in union,0
+35,northern,more than primary,divorced/separated,0
+15,central,primary,married/in union,1
+25,central,primary,single/never married,0
+35,northern,less than primary,married/in union,0
+40,central,primary,divorced/separated,0
+20,western,primary,married/in union,0
+35,northern,less than primary,married/in union,0
+30,central,primary,married/in union,1
+30,central,primary,divorced/separated,0
+25,northern,less than primary,married/in union,0
+20,central,primary,married/in union,0
+20,central,primary,married/in union,0
+35,central,primary,divorced/separated,0
+30,northern,primary,married/in union,0
+25,central,less than primary,married/in union,0
+20,central,primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,more than primary,divorced/separated,1
+25,western,more than primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,central,primary,divorced/separated,0
+15,western,more than primary,married/in union,0
+25,western,primary,married/in union,0
+35,northern,less than primary,divorced/separated,0
+15,northern,less than primary,married/in union,0
+25,central,less than primary,married/in union,1
+20,central,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+25,eastern,primary,divorced/separated,1
+20,northern,primary,divorced/separated,0
+35,central,less than primary,married/in union,1
+30,western,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+25,western,primary,widowed,0
+35,eastern,less than primary,divorced/separated,0
+20,northern,less than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+35,western,less than primary,married/in union,0
+25,central,primary,married/in union,1
+20,central,primary,married/in union,0
+25,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+25,central,primary,married/in union,0
+25,central,less than primary,married/in union,0
+20,eastern,primary,married/in union,1
+15,eastern,primary,divorced/separated,0
+20,central,primary,married/in union,1
+15,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+40,eastern,more than primary,married/in union,0
+35,central,primary,married/in union,0
+40,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+40,western,primary,widowed,0
+35,northern,less than primary,married/in union,0
+15,western,primary,married/in union,0
+20,central,primary,married/in union,0
+25,central,primary,divorced/separated,0
+25,eastern,primary,married/in union,0
+30,northern,less than primary,divorced/separated,0
+25,northern,primary,married/in union,1
+25,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+35,eastern,less than primary,married/in union,0
+25,western,less than primary,married/in union,0
+35,western,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+35,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+40,central,primary,divorced/separated,0
+25,northern,primary,married/in union,0
+15,western,primary,married/in union,0
+25,central,primary,married/in union,0
+35,northern,less than primary,widowed,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+15,eastern,primary,divorced/separated,0
+20,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,1
+20,eastern,primary,married/in union,0
+20,western,primary,married/in union,1
+30,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+25,central,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+30,central,primary,married/in union,0
+20,central,more than primary,married/in union,0
+30,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+15,western,more than primary,divorced/separated,0
+35,northern,primary,married/in union,1
+35,central,less than primary,married/in union,0
+15,western,primary,married/in union,1
+25,central,more than primary,divorced/separated,0
+25,central,less than primary,married/in union,0
+25,western,primary,married/in union,0
+20,central,primary,married/in union,0
+20,northern,primary,married/in union,1
+40,northern,less than primary,widowed,0
+15,northern,primary,married/in union,0
+25,western,more than primary,married/in union,0
+30,central,primary,divorced/separated,0
+15,eastern,primary,married/in union,0
+30,northern,primary,married/in union,0
+35,central,primary,divorced/separated,0
+20,western,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+25,central,less than primary,married/in union,1
+25,eastern,more than primary,divorced/separated,1
+30,central,more than primary,divorced/separated,0
+15,central,more than primary,single/never married,0
+40,western,less than primary,widowed,0
+15,western,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+40,northern,less than primary,widowed,0
+25,central,less than primary,married/in union,0
+20,northern,less than primary,married/in union,0
+20,central,more than primary,married/in union,0
+30,northern,less than primary,married/in union,0
+30,northern,less than primary,married/in union,1
+15,central,more than primary,married/in union,0
+35,western,primary,married/in union,0
+40,central,primary,married/in union,0
+20,central,more than primary,divorced/separated,1
+25,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+35,central,primary,widowed,0
+15,western,more than primary,married/in union,0
+25,northern,less than primary,widowed,0
+30,western,primary,married/in union,0
+15,northern,primary,married/in union,0
+30,western,primary,married/in union,0
+35,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+35,central,more than primary,divorced/separated,0
+25,central,primary,divorced/separated,1
+35,central,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+35,western,more than primary,married/in union,0
+30,central,primary,married/in union,0
+35,central,primary,married/in union,0
+25,central,primary,divorced/separated,0
+30,northern,more than primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+20,central,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+30,northern,primary,widowed,0
+25,central,more than primary,married/in union,1
+15,eastern,more than primary,single/never married,0
+30,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+35,central,more than primary,widowed,1
+15,western,primary,married/in union,0
+25,eastern,less than primary,married/in union,0
+20,eastern,primary,married/in union,0
+25,northern,primary,widowed,0
+35,central,primary,divorced/separated,0
+20,northern,primary,married/in union,0
+30,central,more than primary,married/in union,1
+15,northern,primary,married/in union,1
+20,western,primary,divorced/separated,1
+20,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,central,primary,single/never married,0
+30,central,primary,divorced/separated,1
+15,eastern,more than primary,married/in union,0
+35,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,western,more than primary,married/in union,0
+40,eastern,primary,divorced/separated,0
+20,central,primary,divorced/separated,0
+15,western,more than primary,married/in union,0
+15,central,primary,divorced/separated,1
+25,western,less than primary,married/in union,0
+20,central,primary,married/in union,1
+25,central,primary,divorced/separated,0
+20,central,primary,married/in union,0
+25,western,primary,divorced/separated,0
+35,western,primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+35,western,less than primary,married/in union,0
+25,northern,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+20,central,primary,divorced/separated,0
+15,western,primary,married/in union,0
+25,northern,primary,married/in union,0
+30,eastern,less than primary,married/in union,0
+15,western,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,northern,less than primary,married/in union,0
+25,northern,more than primary,married/in union,0
+30,northern,primary,married/in union,0
+30,central,more than primary,married/in union,0
+20,northern,primary,divorced/separated,0
+25,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+25,central,more than primary,single/never married,0
+20,eastern,primary,married/in union,1
+15,northern,less than primary,married/in union,0
+25,western,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+30,northern,primary,married/in union,0
+30,central,more than primary,divorced/separated,0
+15,central,more than primary,single/never married,1
+25,eastern,primary,married/in union,0
+30,northern,primary,married/in union,0
+35,central,less than primary,married/in union,0
+35,central,more than primary,married/in union,0
+30,central,primary,married/in union,0
+30,central,less than primary,married/in union,1
+25,central,primary,married/in union,0
+25,northern,less than primary,widowed,0
+15,northern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+15,eastern,primary,married/in union,0
+20,central,primary,single/never married,0
+20,western,less than primary,married/in union,0
+25,eastern,primary,married/in union,1
+25,northern,less than primary,married/in union,0
+20,western,primary,married/in union,0
+35,central,primary,married/in union,0
+15,central,more than primary,married/in union,1
+25,central,primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,more than primary,married/in union,1
+30,central,less than primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+20,northern,primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+30,western,primary,divorced/separated,1
+35,western,less than primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+30,central,less than primary,married/in union,0
+20,central,primary,married/in union,1
+25,northern,less than primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,eastern,primary,married/in union,0
+20,northern,primary,divorced/separated,0
+35,central,more than primary,divorced/separated,0
+25,western,more than primary,married/in union,0
+15,central,more than primary,divorced/separated,0
+15,central,primary,married/in union,0
+35,western,primary,divorced/separated,0
+20,northern,less than primary,single/never married,0
+25,central,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+35,central,primary,married/in union,0
+35,central,primary,divorced/separated,1
+35,northern,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+25,eastern,primary,married/in union,0
+35,western,primary,divorced/separated,0
+15,western,primary,divorced/separated,0
+40,eastern,primary,widowed,0
+30,northern,less than primary,married/in union,0
+20,western,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+20,northern,primary,married/in union,0
+25,western,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+30,western,primary,divorced/separated,0
+35,central,less than primary,widowed,0
+15,eastern,more than primary,married/in union,1
+25,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+25,western,primary,widowed,1
+25,central,primary,married/in union,1
+25,central,more than primary,married/in union,0
+25,western,primary,divorced/separated,0
+40,central,primary,married/in union,0
+40,northern,primary,widowed,0
+15,western,more than primary,single/never married,0
+30,eastern,primary,married/in union,0
+25,eastern,more than primary,single/never married,1
+30,western,primary,widowed,0
+15,western,more than primary,single/never married,0
+15,central,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+25,eastern,primary,married/in union,0
+30,northern,less than primary,married/in union,0
+30,eastern,primary,married/in union,0
+30,central,primary,married/in union,0
+20,eastern,more than primary,married/in union,1
+30,northern,less than primary,single/never married,0
+20,central,primary,married/in union,0
+30,eastern,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+30,western,primary,married/in union,0
+40,central,primary,divorced/separated,0
+25,central,primary,single/never married,0
+35,central,primary,divorced/separated,0
+20,northern,less than primary,married/in union,1
+15,central,primary,married/in union,0
+20,central,primary,married/in union,0
+15,eastern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+20,central,primary,divorced/separated,0
+30,central,less than primary,divorced/separated,0
+25,central,more than primary,divorced/separated,1
+15,western,primary,married/in union,0
+20,northern,primary,married/in union,0
+30,western,primary,married/in union,0
+25,western,primary,married/in union,0
+20,western,primary,married/in union,0
+35,western,primary,married/in union,0
+35,western,primary,married/in union,0
+40,central,primary,divorced/separated,0
+20,western,primary,married/in union,0
+25,western,less than primary,married/in union,0
+30,central,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+35,central,less than primary,divorced/separated,0
+20,central,less than primary,married/in union,0
+25,central,more than primary,married/in union,0
+20,eastern,more than primary,married/in union,0
+20,central,primary,married/in union,0
+25,eastern,primary,married/in union,0
+15,central,more than primary,divorced/separated,1
+30,eastern,primary,widowed,0
+15,central,more than primary,divorced/separated,1
+20,central,more than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,eastern,primary,married/in union,0
+25,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+25,central,primary,married/in union,0
+25,northern,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,northern,primary,married/in union,1
+15,northern,primary,married/in union,0
+30,northern,primary,married/in union,1
+20,western,primary,divorced/separated,0
+20,western,primary,married/in union,0
+15,central,primary,married/in union,0
+35,western,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,divorced/separated,1
+20,central,primary,married/in union,1
+25,central,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+25,northern,more than primary,married/in union,0
+15,western,primary,married/in union,0
+35,northern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+30,western,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,more than primary,single/never married,0
+25,western,primary,married/in union,0
+30,western,primary,married/in union,0
+30,northern,primary,widowed,0
+15,central,less than primary,married/in union,0
+15,eastern,primary,married/in union,0
+20,western,more than primary,divorced/separated,0
+35,western,less than primary,married/in union,1
+30,western,less than primary,divorced/separated,0
+20,northern,primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+35,central,more than primary,married/in union,1
+15,northern,more than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+30,northern,primary,married/in union,0
+25,northern,primary,married/in union,0
+35,central,primary,married/in union,0
+25,central,primary,married/in union,1
+25,eastern,primary,married/in union,0
+20,central,more than primary,single/never married,0
+15,central,more than primary,divorced/separated,0
+20,northern,more than primary,married/in union,0
+20,western,more than primary,married/in union,1
+15,northern,primary,married/in union,0
+15,central,more than primary,single/never married,0
+35,central,primary,divorced/separated,1
+15,western,primary,divorced/separated,0
+20,northern,less than primary,married/in union,0
+15,western,primary,single/never married,0
+15,northern,primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+35,western,less than primary,married/in union,0
+20,northern,less than primary,married/in union,1
+15,central,more than primary,married/in union,0
+15,central,primary,single/never married,0
+30,western,primary,married/in union,0
+15,central,more than primary,single/never married,0
+15,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+40,western,primary,widowed,0
+35,central,primary,divorced/separated,0
+20,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+30,central,more than primary,married/in union,1
+35,northern,primary,married/in union,0
+30,western,primary,married/in union,0
+35,western,primary,married/in union,1
+20,northern,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+35,northern,less than primary,married/in union,0
+20,northern,more than primary,divorced/separated,1
+35,northern,primary,married/in union,0
+15,central,less than primary,married/in union,0
+25,northern,primary,married/in union,0
+30,eastern,primary,married/in union,0
+25,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,northern,primary,married/in union,0
+30,central,primary,widowed,0
+30,northern,less than primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+25,western,more than primary,married/in union,1
+20,western,primary,married/in union,0
+35,central,primary,divorced/separated,0
+20,eastern,primary,married/in union,0
+30,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+25,western,primary,married/in union,0
+15,western,more than primary,divorced/separated,0
+25,western,primary,widowed,0
+15,northern,primary,married/in union,1
+20,eastern,primary,married/in union,0
+40,northern,more than primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+30,central,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+25,western,primary,married/in union,0
+20,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,central,primary,single/never married,0
+25,central,primary,married/in union,0
+30,eastern,primary,divorced/separated,1
+40,central,more than primary,widowed,0
+30,western,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+15,western,primary,married/in union,0
+15,central,primary,single/never married,0
+20,western,primary,divorced/separated,0
+30,central,more than primary,married/in union,1
+30,northern,less than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+30,western,less than primary,married/in union,0
+35,western,primary,married/in union,0
+20,western,primary,married/in union,0
+15,central,more than primary,married/in union,0
+25,central,more than primary,divorced/separated,1
+25,eastern,primary,widowed,0
+35,western,primary,married/in union,0
+25,western,more than primary,married/in union,0
+20,central,more than primary,married/in union,0
+25,northern,less than primary,divorced/separated,0
+20,central,more than primary,divorced/separated,1
+30,central,primary,married/in union,0
+20,northern,more than primary,married/in union,0
+15,central,more than primary,married/in union,0
+35,northern,primary,divorced/separated,1
+30,central,primary,divorced/separated,0
+35,northern,less than primary,married/in union,0
+25,central,more than primary,divorced/separated,0
+15,central,more than primary,divorced/separated,1
+25,central,less than primary,married/in union,0
+15,central,more than primary,single/never married,0
+20,northern,primary,married/in union,1
+25,northern,primary,married/in union,0
+30,central,primary,married/in union,1
+25,central,primary,married/in union,0
+35,central,primary,married/in union,0
+35,central,primary,married/in union,0
+35,western,primary,married/in union,0
+30,central,more than primary,divorced/separated,0
+35,northern,less than primary,divorced/separated,0
+20,western,more than primary,married/in union,0
+20,central,primary,married/in union,0
+15,eastern,primary,married/in union,0
+20,central,primary,married/in union,0
+25,central,primary,married/in union,0
+40,northern,primary,married/in union,0
+30,central,primary,widowed,1
+30,western,primary,widowed,0
+15,western,primary,married/in union,1
+20,western,primary,married/in union,0
+15,northern,primary,married/in union,0
+20,western,more than primary,married/in union,0
+25,western,primary,married/in union,0
+30,central,primary,married/in union,0
+15,central,primary,single/never married,0
+15,central,more than primary,single/never married,0
+25,central,primary,married/in union,0
+20,northern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+25,eastern,primary,married/in union,0
+35,northern,primary,married/in union,0
+15,western,more than primary,married/in union,0
+25,western,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+20,western,more than primary,married/in union,0
+35,western,primary,married/in union,0
+25,central,primary,married/in union,0
+35,eastern,primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,western,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+20,eastern,primary,married/in union,0
+30,western,less than primary,married/in union,0
+15,northern,more than primary,single/never married,0
+25,eastern,primary,married/in union,1
+15,northern,primary,married/in union,1
+35,northern,primary,widowed,0
+30,northern,less than primary,married/in union,0
+15,central,primary,single/never married,0
+15,northern,primary,married/in union,0
+20,eastern,primary,married/in union,1
+25,western,primary,married/in union,0
+25,central,more than primary,married/in union,0
+35,western,more than primary,married/in union,0
+30,western,primary,married/in union,0
+35,western,more than primary,married/in union,0
+20,eastern,primary,married/in union,0
+35,central,primary,married/in union,0
+25,western,more than primary,married/in union,0
+20,northern,primary,married/in union,0
+20,central,primary,married/in union,0
+35,eastern,primary,married/in union,0
+15,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+25,central,primary,divorced/separated,0
+15,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,central,more than primary,single/never married,0
+20,northern,primary,married/in union,1
+30,northern,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,western,primary,married/in union,0
+40,central,less than primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+15,central,more than primary,single/never married,0
+35,central,more than primary,divorced/separated,0
+30,western,more than primary,married/in union,0
+15,central,primary,married/in union,0
+20,western,more than primary,single/never married,0
+15,central,more than primary,single/never married,0
+20,eastern,primary,married/in union,0
+40,central,primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+15,western,primary,married/in union,0
+20,central,primary,married/in union,0
+15,central,primary,married/in union,0
+30,central,primary,married/in union,0
+20,eastern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+40,central,more than primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,eastern,more than primary,married/in union,0
+25,western,less than primary,married/in union,0
+15,central,primary,married/in union,0
+15,northern,less than primary,married/in union,0
+40,central,more than primary,married/in union,0
+20,western,primary,married/in union,0
+20,western,more than primary,married/in union,0
+15,central,more than primary,married/in union,1
+20,eastern,primary,married/in union,1
+25,northern,more than primary,married/in union,0
+25,central,more than primary,married/in union,0
+25,western,less than primary,divorced/separated,0
+30,northern,less than primary,married/in union,0
+35,eastern,more than primary,married/in union,0
+15,eastern,primary,married/in union,0
+15,central,primary,divorced/separated,0
+35,western,primary,married/in union,0
+40,northern,less than primary,married/in union,0
+35,central,more than primary,married/in union,0
+35,central,more than primary,married/in union,0
+20,central,primary,married/in union,0
+40,western,primary,divorced/separated,0
+35,central,primary,married/in union,0
+15,northern,primary,married/in union,0
+15,central,primary,married/in union,0
+15,eastern,primary,married/in union,0
+20,central,more than primary,married/in union,0
+15,northern,primary,married/in union,0
+15,western,more than primary,married/in union,0
+15,northern,less than primary,married/in union,0
+20,central,more than primary,divorced/separated,0
+30,central,less than primary,married/in union,0
+35,western,primary,married/in union,1
+35,northern,primary,married/in union,0
