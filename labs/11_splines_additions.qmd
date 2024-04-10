@@ -65,6 +65,15 @@ y <- d |>
   pivot_wider(names_from = "state", values_from = "log_ent") |> 
   select(-year) |> 
   as.matrix()
+res <- getsplines(years, I = 2.5)
+B <- res$B.ik
+K <- length(res$knots.k)
+
+data <- list(N = N, K = K, S = S, y = y, B = B)
+
+library(rstan)
+
+mod <- stan(data = data, file = "../code/models/lab11.stan")
 ```
 
 
